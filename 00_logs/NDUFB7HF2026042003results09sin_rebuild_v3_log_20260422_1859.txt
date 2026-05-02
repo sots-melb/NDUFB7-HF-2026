@@ -1,0 +1,22 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== GSE168742 Seurat重建 v3 ===
+读取: GSE168742_human_control_CM.csv.gz ... 23355 基因 x 84 细胞
+读取: GSE168742_human_HF_CM.csv.gz ... 23355 基因 x 678 细胞
+读取: GSE168742_MI_day1_1.csv.gz ... 22134 基因 x 84 细胞
+读取: GSE168742_MI_day1_2.csv.gz ... 22134 基因 x 88 细胞
+读取: GSE168742_MI_day7_1.csv.gz ... 22134 基因 x 91 细胞
+
+成功读取 5 个文件
+共同基因: 15 
+❌ 共同基因太少，检查文件格式

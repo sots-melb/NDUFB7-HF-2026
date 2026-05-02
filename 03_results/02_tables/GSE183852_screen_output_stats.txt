@@ -1,0 +1,37 @@
+# GSE183852 Nuclei.Robj 屏幕输出统计 (2026-04-25 17:35)
+# 文件: GSE183852_DCM_Nuclei.Robj (8.2GB)
+# 读取方法: load()成功，对象名'nuclei'
+
+## 基本参数
+- 总细胞数: 220,752
+- 总基因数: 29,484
+- NDUFB7表达值: 220,752个
+- NDUFB7均值: 0.14
+- NDUFB7中位数: 0
+- NDUFB7零值比例: 87.9%
+
+## Condition分布
+- DCM: 66,669细胞
+- Donor: 154,083细胞
+
+## Names(细胞类型)分布
+- Cardiomyocytes: 47,076
+- Fibroblasts: 49,124
+- Endothelium: 38,029
+- Macrophages: 29,252
+- Endocardium: 15,941
+- Pericytes: 23,135
+- T/NK_Cells: 4,579
+- Smooth_Muscle: 4,683
+- Epicardium: 1,401
+- Adipocytes: 1,079
+- Lymphatic: 2,293
+- Monocytes: 804
+- B_Cells: 151
+- Mast_Cells: 1,341
+- Neurons: 1,864
+
+## 关键发现
+NDUFB7在DCM/Donor左心室单细胞中表达极其稀疏（87.9%零值），
+远低于GSE109816正常左心房（CM零值43.8%, NCM零值26.5%）。
+提示：解剖位置（心房vs心室）或疾病状态可能影响NDUFB7基线表达。

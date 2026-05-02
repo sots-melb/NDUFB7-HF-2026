@@ -1,0 +1,61 @@
+NDUFB7_Mito_2026 — 项目资产摘要 V60
+====================================
+生成时间: Fri Apr 24 09:36:08 PM CST 2026
+
+【数据资产】
+Tier S (核心): 7个数据集
+  - Kuppe Visium V1      (999M)
+  - GSE57338 Affy        (4.2G)
+  - GSE116250 RPKM       (20M)
+  - GSE55296 counts      (1.8M)
+  - PXD010154蛋白组       (3.1G)
+  - eQTLGen Phase I      (309M)
+  - GTEx v11 Heart LV    (3.2G)
+
+Tier A (高价值): 4个数据集
+  - GSE183852 scRNA      (8.2G, 去卷积必需)
+  - GSE168742 scRNA      (475M)
+  - GSE290577 Xenium     (181M)
+  - GSE214611 MI timecourse (2.8G)
+
+【脚本资产】
+R脚本: 35 个
+  - 01_r_analysis/: 0 个
+  - 04_deprecated/: 0 个
+
+【结果资产】
+Figure: 5个主图 + 6个补充图
+  - Figure 1: Visium空间 (待替换真实spot数据)
+  - Figure 2: 四平台Bulk整合 ✅
+  - Figure 3: WGCNA网络 ✅
+  - Figure 4: eQTL组织比较 ✅
+  - Figure 5: PROGENy虚拟KO ✅
+  - SuppFig 3: 森林图 ✅ (刚生成)
+
+【文档资产】
+  - 数据溯源清单: 01_data/00_data_governance/00_data_sources_v60.md
+  - 下载日志: 01_data/00_data_governance/00_download_log_v60.csv
+  - Data Availability: 3种期刊格式
+  - 审计报告: 3份
+  - 版本日志: V8→V60
+  - README.md: ✅
+  - 项目结构图: 00_PROJECT_STRUCTURE.txt
+
+【合规状态】
+  ✅ 目录结构: 发表级 (01_data-09_tmp完整)
+  ✅ 数据溯源: 完整
+  ✅ 版本控制: Git已初始化
+  ✅ 幽灵目录: 已清理 (备份在.backups/)
+  ⚠️  代码公开: GitHub待上传
+  ⚠️  数据校验: MD5部分完成
+
+【磁盘使用】
+  项目总大小: 94G
+  可用空间: 1.3T
+
+【下一步】
+  P0: 去卷积分析 (GSE183852已就绪)
+  P0: GitHub代码上传
+  P1: SMR/HEIDI检验
+  P1: GDS4772补充下载
+  P2: 论文写作 (04_paper/01_drafts/)

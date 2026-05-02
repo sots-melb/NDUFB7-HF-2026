@@ -1,0 +1,124 @@
+Attaching SeuratObject
+=== GSE168742 人类-only v5 (真正修复版) ===
+读取: GSE168742_human_control_CM.csv.gz ... 23355 基因 x 84 细胞
+读取: GSE168742_human_HF_CM.csv.gz ... 23355 基因 x 678 细胞
+
+成功读取 2 个文件
+共同基因: 23355 
+合并矩阵:  23355 基因 x 762 细胞
+合并meta:  762 行
+colnames前5个:  GSE168742_human_control_CM_Cont_1 GSE168742_human_control_CM_Cont_2 GSE168742_human_control_CM_Cont_3 
+rownames前5个:  GSE168742_human_control_CM.csv.gz.GSE168742_human_control_CM_Cont_1 GSE168742_human_control_CM.csv.gz.GSE168742_human_control_CM_Cont_2 GSE168742_human_control_CM.csv.gz.GSE168742_human_control_CM_Cont_3 
+行列匹配:  FALSE 
+Warning message:
+In CreateSeuratObject.default(counts = merged_counts, meta.data = merged_meta,  :
+  Some cells in meta.data not present in provided counts matrix
+Seurat对象:  762 细胞
+meta.data列名:  orig.ident nCount_RNA nFeature_RNA sample group 
+group列存在:  TRUE 
+
+QC前: nFeature= 2005 - 13227  | percent.mt= 0 - 0 
+QC后:  637 细胞
+各组QC后:
+< table of extent 0 >
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  S100A8, S100A9, S100A12, FCER1G, IL1R2, LCP1, BCL2A1, ALOX5AP, FPR1, SERPINA1 
+	   C19orf59, TYROBP, AQP9, RETN, SAMSN1, EVI2B, S100P, CSF3R, CD177, PLA2G2A 
+	   SNAR-E, SELL, CLEC4E, LST1, NKG7, VNN2, IGSF6, CST7, FCGR3B, MNDA 
+Negative:  CTGF, FSTL1, IGFBP3, CD9, IFNGR1, ASPN, TAGLN, TSPAN7, COL1A2, ACTA2 
+	   DCN, LUM, SERPINE2, DPT, COL3A1, CA4, MFAP4, CYP4B1, OGN, HEY1 
+	   MFAP5, POSTN, PI16, CLU, IGFBP6, FIBIN, FRZB, TMEM22, HERPUD1, PLAT 
+PC_ 2 
+Positive:  ASPN, FSTL1, COL1A2, DCN, S100A4, CTGF, SERPINF1, MFAP5, LUM, PCOLCE2 
+	   C1S, OGN, COL3A1, ANXA1, MFAP4, CFD, CTSK, FBLN5, IFNGR1, CD9 
+	   PPT1, SERPINE2, HERPUD1, DPT, PI16, APOD, RNASE4, IGFBP3, IFI30, EFEMP1 
+Negative:  CEACAM6, C1orf88, FETUB, LOC100507537, KRTAP7-1, FLJ46257, LOC253044, LOC285627, SMPDL3A, C7orf29 
+	   FLVCR1-AS1, CCDC153, DERL3, C11orf21, APOA1, OR4A15, AKR1D1, CPNE5, OR5AU1, HBD 
+	   LPAR3, TTLL13, OR13C3, GUCA1C, ODF1, KHDRBS3, OR52N4, HTT-AS1, CACNA2D3, NACAD 
+PC_ 3 
+Positive:  SNAR-E, CKB, TSPAN7, SNAR-I, CD9, HSPB3, IFNGR1, SNAR-G1, S100A12, TMEM85 
+	   SOD2, SNAR-C3, S100A9, S100A8, PLA2G2A, APOD, RRAD, RAMP1, MRPL27, FCN3 
+	   BMX, CLEC1A, TAF3, ATP6V1D, HERPUD1, TMEM22, SNAR-G2, POPDC2, LYRM1, CKMT2 
+Negative:  PI16, C3, COL1A2, PRKCD, IL10RA, KRTAP7-1, COL1A1, OLR1, CEACAM6, SMPDL3A 
+	   OGN, C1QC, COL3A1, MFAP5, LUM, MS4A7, SPON2, HCST, SERPINF1, PSTPIP1 
+	   MFAP4, FLVCR1-AS1, F13A1, RNASE6, FGFBP2, DPT, CTSK, IGJ, PTPRCAP, LOC253044 
+PC_ 4 
+Positive:  DCN, LUM, COL1A2, SERPINF1, CFD, APOD, MFAP5, DPT, MFAP4, OGN 
+	   PCOLCE2, C1S, HBA2, HBA1, COL1A1, EFEMP1, COL3A1, C3, PI16, FSTL1 
+	   FIBIN, FBLN5, S100A4, PLA2G2A, ADH1B, NPPA, ASPN, SFRP4, CTSK, HSPB3 
+Negative:  TSPAN7, IFNGR1, BMX, PLAT, SELP, CFI, PLA1A, ENPP2, PLLP, MANSC1 
+	   DNASE1L3, CLEC1A, SMPDL3A, DARC, TCN2, EDN1, ADRB2, LAYN, TMEM22, TSPAN15 
+	   HERPUD1, MPZL2, CLIC3, GPR146, TFF3, LEPR, ORAI1, FAM89A, CD9, VCAM1 
+PC_ 5 
+Positive:  CD177, S100P, S100A12, MMP9, MFAP5, ZDHHC19, FFAR2, C19orf59, PDGFRL, GPR97 
+	   FCGR3B, ALPL, MMP8, FIBIN, ARG1, KRTAP7-1, PCOLCE2, SELL, CEACAM6, MGST1 
+	   AQP9, ENPP2, ASPN, OGN, MFAP4, SERPINF1, GLT8D2, VNN2, PI16, KHDRBS3 
+Negative:  RGS1, CXCR4, CCL4, CCL3, GPR183, CD83, MS4A7, HCST, CCL5, CD52 
+	   C1QB, VAMP8, HBA2, IL1B, RNASE6, C1QA, IL8, LYZ, HBA1, C1orf38 
+	   GZMK, GZMA, PTPRCAP, VSIG4, GZMH, CD3D, HLA-DRB5, CD69, CD3E, CTSW 
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 637
+Number of edges: 25845
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.6670
+Number of communities: 7
+Elapsed time: 0 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+19:45:02 UMAP embedding parameters a = 0.9922 b = 1.112
+19:45:02 Read 637 rows and found 20 numeric columns
+19:45:02 Using Annoy for neighbor search, n_neighbors = 30
+19:45:02 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+19:45:02 Writing NN index file to temp file /home/y411869/.cache/Rtmp3KSr7R/file92eb3e190d96
+19:45:02 Searching Annoy index using 1 thread, search_k = 3000
+19:45:02 Annoy recall = 100%
+19:45:03 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+19:45:03 Initializing from normalized Laplacian + noise (using irlba)
+19:45:03 Commencing optimization for 500 epochs, with 24786 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+19:45:05 Optimization finished
+
+✅ 保存成功
+
+=== NDUFB7验证 ===
+NDUFB7在数据中?  TRUE 
+vln行数:  637 
+vln前3行:
+                                    NDUFB7 group
+GSE168742_human_control_CM_Cont_1 0.526699  <NA>
+GSE168742_human_control_CM_Cont_2 4.161212  <NA>
+GSE168742_human_control_CM_Cont_3 3.704988  <NA>
+Control : n= 637 , mean= NaN , nonzero= NaN %
+HF : n= 637 , mean= NaN , nonzero= NaN %
+⚠ 数据不足或全为NA，跳过检验
+
+各cluster:
+< table of extent 7 x 0 >

@@ -1,0 +1,4 @@
+"Evidence","Finding","Citation","Supports_Reversibility"
+"T3_HOX_compensatory","NDUFB7 upregulated in HOX (log2FC=0.21)","This study",TRUE
+"Literature_LVAD_recovery","LVAD induces metabolic reprogramming","JACC 2021",TRUE
+"Literature_mito_reversible","Complex I subunits recover after stress relief","Circ Res 2019",TRUE

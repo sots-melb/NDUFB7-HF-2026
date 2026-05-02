@@ -1,0 +1,2 @@
+Cohort,N,Zero_Pct,Dip,Dip_P,Reject_Unimodal,Method
+GSE183852,441504,91,0.0404,0e+00,TRUE,diptest

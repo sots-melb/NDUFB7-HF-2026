@@ -1,0 +1,14 @@
+Attaching SeuratObject
+=== Cluster 4/5 生物学身份鉴定 ===
+
+【1】Top marker genes per cluster
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+Error in markers %>% group_by(cluster) %>% top_n(n = 10, wt = avg_log2FC) : 
+  could not find function "%>%"
+Execution halted

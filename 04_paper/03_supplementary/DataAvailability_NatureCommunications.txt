@@ -1,0 +1,15 @@
+DATA AVAILABILITY STATEMENT
+(Nature Communications format)
+
+All data supporting the findings of this study are available from public repositories. 
+Spatial transcriptomics data were obtained from Zenodo (record 6578047, Kuppe et al., Nature 2022, https://doi.org/10.5281/zenodo.6578047). 
+Bulk RNA-seq and microarray datasets were retrieved from NCBI Gene Expression Omnibus (GEO): GSE57338 (Affymetrix Human Gene 1.1 ST Array, n=313), GSE116250 (Illumina HiSeq 2000 RNA-seq RPKM, n=64), GSE55296 (Illumina HiSeq 2000 RNA-seq counts, n=37), and GDS4772 (Affymetrix U133A 2.0, n=17). 
+Single-cell reference data were obtained from NCBI GEO (GSE183852, DCM nuclei, ~200,000 cells). 
+Proteomics data were obtained from PRIDE (PXD010154, 19 fractions). 
+Expression quantitative trait loci data were obtained from eQTLGen (Phase I, https://www.eqtlgen.org/phase1.html) and GTEx Portal (v11, https://gtexportal.org/). 
+
+All derived data (normalized expression matrices, WGCNA module assignments, PROGENy pathway scores, and spatial coordinates) are available in the GitHub repository [link pending] and Zenodo archive [DOI pending] under MIT License. 
+
+Source data for all figures and supplementary figures are provided with this paper. 
+
+Correspondence and requests for additional materials should be addressed to [corresponding author].

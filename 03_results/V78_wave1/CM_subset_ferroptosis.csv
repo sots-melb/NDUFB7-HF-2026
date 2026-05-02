@@ -1,0 +1,2 @@
+analysis,n_cells,genes_used,spearman_rho,spearman_p
+CM_subset_ferroptosis,47949,"FTL,SAT1,NFE2L2,SLC7A11,ACSL4",0.019509292108457765,1.934708392591353e-05

@@ -1,0 +1,9 @@
+Property	Value
+Gene	NDUFB7
+Protein	CI-B18
+UniProt	Q8IYU8
+MW_kDa	16.4
+AA_length	137
+Location	Mitochondrial inner membrane
+Family	Complex I accessory
+Druggability	Undruggable_directly

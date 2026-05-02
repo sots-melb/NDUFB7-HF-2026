@@ -1,0 +1,64 @@
+suppressMessages(library(GEOquery))
+suppressMessages(library(survival))
+suppressMessages(library(survminer))
+
+matrix_file <- "~/Projects/NDUFB7_HF_2026_04_20/01_data/01_raw_geo/GSE59867/GSE59867_series_matrix.txt.gz"
+message("▶ 正在极速加载 GSE59867 (已彻底切断外网 GPL 下载)...")
+
+# 核心修复：getGPL = FALSE, AnnotGPL = FALSE，彻底切断外网依赖
+gse <- getGEO(filename = matrix_file, GSEMatrix = TRUE, getGPL = FALSE, AnnotGPL = FALSE)
+pdata <- pData(gse)
+exprs_data <- exprs(gse)
+
+probe_id <- "8034843"
+if(probe_id %in% rownames(exprs_data)) {
+    ndufb7_expr <- as.numeric(exprs_data[probe_id, ])
+} else {
+    stop("❌ 未找到探针 8034843！")
+}
+
+time_vec <- rep(NA, nrow(pdata)); event_vec <- rep(NA, nrow(pdata))
+feature_cols <- grep("characteristics_ch1", colnames(pdata), value=TRUE)
+if(length(feature_cols) == 0) feature_cols <- colnames(pdata)
+
+for(i in 1:nrow(pdata)) {
+    row_text <- paste(pdata[i, feature_cols], collapse=" | ")
+    time_match <- regexpr("(follow[- ]?up time|survival time).*?([0-9.]+)", row_text, ignore.case=TRUE)
+    if(time_match > 0) {
+        num_str <- regmatches(row_text, regexpr("([0-9.]+)", substr(row_text, time_match, nchar(row_text))))
+        time_vec[i] <- as.numeric(num_str)
+    }
+    if(grepl("event.*?1|death.*?1|status.*?dead", row_text, ignore.case=TRUE)) {
+        event_vec[i] <- 1
+    } else if(grepl("event.*?0|death.*?0|status.*?alive", row_text, ignore.case=TRUE)) {
+        event_vec[i] <- 0
+    }
+}
+
+clinical_df <- data.frame(Sample = rownames(pdata), NDUFB7 = ndufb7_expr, Time = time_vec, Event = event_vec)
+clinical_df <- clinical_df[!is.na(clinical_df$Time) & !is.na(clinical_df$Event), ]
+
+median_val <- median(clinical_df$NDUFB7, na.rm=TRUE)
+clinical_df$Group <- ifelse(clinical_df$NDUFB7 >= median_val, "NDUFB7 High", "NDUFB7 Low")
+clinical_df$Group <- factor(clinical_df$Group, levels = c("NDUFB7 High", "NDUFB7 Low"))
+
+cox_model <- coxph(Surv(Time, Event) ~ NDUFB7, data = clinical_df)
+cox_summary <- summary(cox_model)
+hr <- cox_summary$coefficients[1, "exp(coef)"]
+p_val <- cox_summary$coefficients[1, "Pr(>|z|)"]
+
+message("\n=======================================================")
+message("🌟 临床预后闭环：GSE59867 Cox 回归结果 🌟")
+message(sprintf(" 1. 风险比 (HR): %.4f", hr))
+message(sprintf(" 2. p-value:    %.4e", p_val))
+message("=======================================================")
+
+fit <- survfit(Surv(Time, Event) ~ Group, data = clinical_df)
+km_plot <- ggsurvplot(fit, data = clinical_df, pval = TRUE, conf.int = TRUE, risk.table = TRUE, 
+                      palette = c("#3C5488FF", "#DC0000FF"), title = "Kaplan-Meier Survival Analysis", ggtheme = theme_classic())
+
+pdf_out <- "~/Projects/NDUFB7_HF_2026_04_20/03_results/01_figures/Figure_6_KM_Survival.pdf"
+pdf(pdf_out, width = 8, height = 7, onefile = FALSE)
+print(km_plot)
+dev.off()
+message("✅ 生存曲线保存成功！")

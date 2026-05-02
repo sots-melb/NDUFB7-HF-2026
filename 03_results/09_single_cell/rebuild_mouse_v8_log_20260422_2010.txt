@@ -1,0 +1,115 @@
+Attaching SeuratObject
+=== 小鼠MI时间序列 v8 (处理重复行名) ===
+找到 9 个文件
+读取: GSE168742_MI_day1_1.csv.gz ... 22134 基因 x 84 细胞
+读取: GSE168742_MI_day1_2.csv.gz ... 22134 基因 x 88 细胞
+读取: GSE168742_MI_day7_1.csv.gz ... 22134 基因 x 91 细胞
+读取: GSE168742_WT_sham1_CM.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 91 细胞
+读取: GSE168742_WT_sham1_FB.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 81 细胞
+读取: GSE168742_WT_sham2_CM.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 94 细胞
+读取: GSE168742_WT_sham2_FB.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 33 细胞
+读取: GSE168742_WT_TAC1_CM.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 95 细胞
+读取: GSE168742_WT_TAC1_FB.csv.gz ... 发现 3373 个重复基因名: U7 U6 U6 ... 37146 基因 x 40 细胞
+
+共同基因: 19751 
+合并: 19751 基因 x 697 细胞
+Seurat对象: 697 细胞
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  Tyrobp, Fcer1g, Lyz2, Csrp3, Laptm5, Ctsc, Ctss, Fcgr2b, Gm11428, Cd68 
+	   Lcp1, Cd53, Cd14, Alox5ap, Ccl6, Ucp2, C1qb, Lilrb4, C1qc, Ms4a6c 
+	   C5ar1, C1qa, Fcgr3, Ms4a6d, Ms4a6b, Cd52, Ccl9, Aif1, Nppb, Pld4 
+Negative:  Serping1, Dpt, Mmp2, Rarres2, Gsn, Lum, Fbln1, Htra3, Plac9, Mfap5 
+	   Bgn, Serpinf1, Sparc, Mxra8, Cd34, Mgp, Ccdc80, Entpd2, Clec3b, Fbln2 
+	   Islr, Igfbp7, Smoc2, Col1a2, Gpx3, Prelp, Rhoj, Fstl1, Col3a1, S100a11 
+PC_ 2 
+Positive:  Csrp3, Casq2, Nppb, Fabp3, Ptgds, Asb11, Kbtbd10, Itgb1bp3, Limch1, Gsta4 
+	   Uck2, Atp5g1, Lrg1, Nppa, Myot, Mt2, Ankrd2, Lcn2, Me3, Nkain1 
+	   Nek7, Cpt1b, Asb12, Spa17, Ptpla, Sprr1a, Lypd2, Acta2, Lactb, Casq1 
+Negative:  Sepp1, Grn, Apoe, Unc93b1, Csf1r, Ctsa, Fcgr2b, C1qc, Ctsc, Ftl1 
+	   Laptm5, Ctsb, Dab2, Lrrc33, C1qa, Dusp1, Lyz2, Lgmn, Lyz1, Crip1 
+	   Lcp1, Pltp, Ms4a6b, Emr1, C1qb, Tsc22d3, Evi2a, Zfp36l1, Mrc1, Ccl24 
+PC_ 3 
+Positive:  Tmem88, Tspan13, Esam, Apold1, Gimap6, Icam2, Cav2, Cav1, Pecam1, Aqp1 
+	   Emcn, Eltd1, Egfl7, Fabp4, Fam70b, Cldn5, Gimap4, Gimap9, Timp4, Sox18 
+	   Necab3, Slc9a3r2, Ecscr, Gpihbp1, Rasgrp2, Klk8, Cd200, Haus4, Mgll, Lims2 
+Negative:  Igf1, Serpina3n, Col3a1, Sfrp1, C4a, Celf2, Col1a2, Alox5ap, C4b, Fbn1 
+	   Timp1, Ccdc80, Anxa1, C1ra, Col1a1, Ang, Ntpcr, Fermt3, Cfp, Tcf7l2 
+	   Gadd45g, Dhdds, Snhg9, Gas1, Adamtsl2, Prg4, Msr1, Zfp560, Dnase2a, Ptpla 
+PC_ 4 
+Positive:  Thbs1, Clec4d, Cd52, Il1b, Spp1, Dpep2, Clec4e, Napsa, Fn1, Ccr2 
+	   Apoc2, Arg1, Chi3l3, Plaur, Lgals3, Osm, Lat2, Clec7a, Tes, Slfn2 
+	   S100a4, Havcr2, Srgn, Mmp8, Ltb4r1, Emb, Ccrl2, Ms4a4c, Rab32, AA467197 
+Negative:  Cbr2, Retnla, Fcna, Lyz1, Fxyd2, Folr2, Lyve1, Ptafr, Timd4, Ptpro 
+	   B3galnt1, Rnaset2b, Slc28a2, P2ry12, Mfsd11, Mrc1, Pltp, Pilrb1, Mgl2, Npl 
+	   Pla2g2d, Susd1, Ltc4s, Cd163, Pilrb2, Alox5, Cmtm2a, Ubc, Gpr34, Gm962 
+PC_ 5 
+Positive:  Loxl2, Cd248, Fbn1, Cadm3, Nhsl1, Sema3c, Efhd1, Ly6c1, Pi16, Gfpt2 
+	   Ccdc48, Ly6c2, Anxa8, Gm8580, Pold1, Mobp, Stmn4, Cd55, Bean1, Pcsk6 
+	   Stim2, Lrrn4cl, Plekhf1, Col8a1, Ccdc102a, Uap1, Aacs, Limch1, Pla1a, Htra4 
+Negative:  Omd, Ptgfr, Vit, Gem, Sprn, Cyp2e1, Kazald1, Paqr6, Tlcd2, Wif1 
+	   Pdlim3, Pdgfrl, Maob, Id2, Msx1, Fos, Cadm1, Rasl11a, Slc19a1, Igfbp3 
+	   Nr4a1, Gng8, Ccl19, Gpatch3, Lsamp, Izumo4, Fmo1, Gm13305, Gpc3, Fam180a 
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 192
+Number of edges: 5891
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.6679
+Number of communities: 3
+Elapsed time: 0 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+20:11:23 UMAP embedding parameters a = 0.9922 b = 1.112
+20:11:23 Read 192 rows and found 20 numeric columns
+20:11:23 Using Annoy for neighbor search, n_neighbors = 30
+20:11:23 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:11:23 Writing NN index file to temp file /home/y411869/.cache/Rtmpk9ChLw/file9bd36a31ec05
+20:11:23 Searching Annoy index using 1 thread, search_k = 3000
+20:11:23 Annoy recall = 100%
+20:11:23 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+20:11:24 Initializing from normalized Laplacian + noise (using irlba)
+20:11:24 Commencing optimization for 500 epochs, with 7638 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:11:24 Optimization finished
+
+✅ 保存成功
+
+=== Ndufb7时间序列 ===
+Baseline : n= 50 , mean= 1.141 
+TAC : n= 33 , mean= 1.827 
+Day1 : n= 81 , mean= 3.818 
+Day7 : n= 28 , mean= 3.674 
+
+各组-时间细胞数:
+      
+       Baseline Day1 Day7 TAC
+  MI          0   81   28   0
+  Sham       50    0    0   0
+  TAC         0    0    0  33

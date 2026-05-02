@@ -1,0 +1,10 @@
+"Platform","Label","N","EffectSize","CI_lower","CI_upper","P_value","Test","Adjustment"
+"Affy 1.1 ST","GSE57338
+Affy 1.1 ST | n=313 | d=0.07 [-0.15, 0.29] | p=0.520 ",313,0.07,-0.15,0.29,0.52,"Wilcoxon","BH FDR (per platform)"
+"Affy U133A","GDS4772
+Affy U133A 2.0 | n=17 | d=0.12 [-0.83, 1.07] | p=0.780 ",17,0.12,-0.83,1.07,0.78,"Wilcoxon","BH FDR (per platform)"
+"RNA-seq RPKM","GSE116250
+RNA-seq RPKM | n=64 | d=0.94 [0.35, 1.53] | p=0.008 RPKM偏倚",64,0.94,0.35,1.53,0.008,"Wilcoxon","BH FDR (per platform)"
+"RNA-seq count","GSE55296
+RNA-seq count | n=37 | d=0.65 [0.02, 1.28] | p=0.046 ",37,0.65,0.02,1.28,0.046,"Wilcoxon","BH FDR (per platform)"
+"Overall","Overall | n=431 | d=0.22 [0.03, 0.41] | p=0.026",431,0.217856911565147,0.0259796595287062,0.409734163601588,0.0260558272647758,"Random-effects","BH FDR (per platform)"

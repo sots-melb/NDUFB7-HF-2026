@@ -1,0 +1,3 @@
+Dataset,Tissue,Lead_SNP,Chr,Pos,Ref,Alt,EA,EA_Freq,Gene_ID,p_value,slope,slope_se,qval,Direction,Note
+eQTLGen,Whole Blood,rs11085898,19,14641837,C,T,T,0.46,ENSG00000167996,2.60E-09,NA,NA,NA,Increase,T等位基因增加NDUFB7表达
+GTEx v11,Heart Left Ventricle,rs8103021,19,14641837,C,T,T,0.46,ENSG00000099795.7,1.89E-06,-0.080,0.017,6.84E-05,Decrease,T等位基因降低NDUFB7表达

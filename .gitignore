@@ -1,0 +1,48 @@
+# === Large data files ===
+01_data/
+*.tar
+*.tar.gz
+*.zip
+*.h5ad
+*.h5Seurat
+*.zarr
+*.rds
+*.RDS
+Rplots.pdf
+
+# === Gene-level expression matrices (>50MB) ===
+03_results/*_gene_level.csv
+03_results/*_rescued_matrix.csv
+03_results/*_expression_matrix*.csv
+03_results/*_expr_matrix*.rds
+03_results/*_gene_level_FIXED.rds
+
+# === Logs & temporary files ===
+00_logs/
+03_results/03_logs/
+03_results/logs/
+04_logs/
+*.log
+nohup.out
+
+# === Intermediate / archive ===
+06_archive/
+09_tmp/
+03_results/V148_GSE168742_Fixed/
+03_results/V170_Rescue/
+03_results/V171_Fixed/
+03_results/V178_Fixed/
+03_results/V179_Fixed/GSE59867_gene_level.csv
+03_results/01_seurat_objects/
+03_results/02_figures_tables/
+03_results/02_tables/
+03_results/03_pathway_analysis/
+03_results/09_single_cell/
+03_results/20_mouse_tac/
+03_results/V78_wave1/
+03_results/V80_archive_*
+03_results/V81_immediate/
+03_results/V83_pyroptosis_main/
+03_results/V91_*
+03_results/V95_*
+04_docs/

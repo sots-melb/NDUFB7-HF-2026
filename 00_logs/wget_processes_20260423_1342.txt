@@ -1,0 +1,3 @@
+y411869   137103  0.0  0.0  18132  8732 pts/0    S+   12:35   0:01 wget -c -O GSE290577/GSE290577_heart_spatial.rds https://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290577/suppl/GSE290577_heart_spatial.rds
+y411869   141732  0.0  0.0  18132  8680 pts/3    S    13:30   0:00 wget -c -O GSE153475/GSE153475_RAW.tar https://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153475/suppl/GSE153475_RAW.tar
+y411869   142646  0.0  0.0  17200  5216 pts/3    S+   13:42   0:00 wget -q -O - ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2019/07/PXD010154/

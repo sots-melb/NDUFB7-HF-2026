@@ -1,0 +1,33 @@
+nohup: ignoring input
+[20:23:24] 开始补下载Supplementary...
+[GSE116250] 尝试: GSE116250_gene_counts.csv.gz
+[GSE116250] ❌ GSE116250_gene_counts.csv.gz 失败
+[GSE116250] 尝试: GSE116250_counts.txt.gz
+[GSE116250] ❌ GSE116250_counts.txt.gz 失败
+[GSE116250] 尝试: GSE116250_fpkm.txt.gz
+[GSE116250] ❌ GSE116250_fpkm.txt.gz 失败
+[GSE116250] 尝试: GSE116250_tpm.txt.gz
+[GSE116250] ❌ GSE116250_tpm.txt.gz 失败
+[GSE116250] 尝试: GSE116250_RAW.tar
+[GSE116250] ❌ GSE116250_RAW.tar 失败
+[GSE46224] 尝试: GSE46224_gene_counts.csv.gz
+[GSE46224] ❌ GSE46224_gene_counts.csv.gz 失败
+[GSE46224] 尝试: GSE46224_counts.txt.gz
+[GSE46224] ❌ GSE46224_counts.txt.gz 失败
+[GSE46224] 尝试: GSE46224_fpkm.txt.gz
+[GSE46224] ❌ GSE46224_fpkm.txt.gz 失败
+[GSE46224] 尝试: GSE46224_tpm.txt.gz
+[GSE46224] ❌ GSE46224_tpm.txt.gz 失败
+[GSE46224] 尝试: GSE46224_RAW.tar
+[GSE46224] ❌ GSE46224_RAW.tar 失败
+[GSE315590] 尝试: GSE315590_gene_counts.csv.gz
+[GSE315590] ❌ GSE315590_gene_counts.csv.gz 失败
+[GSE315590] 尝试: GSE315590_counts.txt.gz
+[GSE315590] ❌ GSE315590_counts.txt.gz 失败
+[GSE315590] 尝试: GSE315590_fpkm.txt.gz
+[GSE315590] ❌ GSE315590_fpkm.txt.gz 失败
+[GSE315590] 尝试: GSE315590_tpm.txt.gz
+[GSE315590] ❌ GSE315590_tpm.txt.gz 失败
+[GSE315590] 尝试: GSE315590_RAW.tar
+[GSE315590] ❌ GSE315590_RAW.tar 失败
+[20:23:49] 结束

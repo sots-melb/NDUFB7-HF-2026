@@ -1,0 +1,10 @@
+"Dataset","n","G","zero_pct","all_or_none","platform","disease"
+"GSE183852
+(HF snRNA-seq)",637,3,18.4,26.5,"snRNA-seq
+(10x v3)","DCM"
+"GSE121893
+(Healthy scRNA-seq)",4933,2,26.9,34.3,"scRNA-seq
+(SMART-seq2)","Healthy"
+"GSE168742
+(HF scRNA-seq)",84,2,6,15.5,"scRNA-seq
+(10x v2)","HF"

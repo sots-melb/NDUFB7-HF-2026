@@ -1,0 +1,32 @@
+
+=== HONEST Results Paragraph (Revised Narrative) ===
+
+Original hypothesis (DISPROVEN): NDUFB7 shows a bimodal all-or-none threshold collapse.
+Data: GSE183852 (all-or-none=26.5%, G=3), GSE106118 (22.7%, G=3). Both are TRI-MODAL, not bimodal.
+
+REVISED NARRATIVE — Stepwise Stage-Specific Depletion:
+
+'NDUFB7 expression in failing cardiomyocytes follows a stepwise depletion pattern 
+rather than gradual downregulation. Single-cell distribution revealed a tri-modal 
+landscape: complete silence (~18%), intermediate expression (~73%), and high-expression 
+retention (~9%). Notably, Monocle3 pseudotime analysis identified a stress-triggered 
+breakpoint at pseudotime 6.14 (early vs. mid p=4.3×10⁻⁴, delta=-0.152), after which 
+NDUFB7 undergoes a stage-specific collapse. Intriguingly, late pseudotime showed 
+partial compensatory rebound (mean=4.038), suggesting that surviving cells attempt 
+metabolic recovery. This stepwise dynamics—threshold-triggered depletion followed 
+by incomplete rescue—positions NDUFB7 as a microenvironment-sensitive rheostat rather 
+than a binary on/off switch.'
+
+Figure assignments:
+- Fig 3C: Monocle3 stepwise plot with breakpoint annotation (pseudotime 6.14)
+- Fig S3: Tri-modal density plots for GSE183852 + GSE106118 (honest G=3 labeling)
+- Fig 5: CellChat CM-CM interaction network (ANXA1-FPR1, PECAM1 axes)
+
+Discussion implication:
+'The absence of a population-level bimodal threshold argues against a deterministic 
+genetic switch. Instead, the tri-modal distribution suggests stochastic microenvironmental 
+sensing—individual cells respond heterogeneously to the same fibrotic/ischemic stress, 
+producing a spectrum from silence to compensation. This has therapeutic implications: 
+interventions need not restore NDUFB7 in all cells, but rather shift the distribution 
+from the silent mode toward the intermediate/high mode.'
+

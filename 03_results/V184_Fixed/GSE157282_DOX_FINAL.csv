@@ -1,0 +1,13 @@
+Sample,NDUFB7,Group,Method
+GSM4760744_Control1_S1,425.887,Control,brute_force_numeric
+GSM4760745_Control2_S2,415.074,Control,brute_force_numeric
+GSM4760746_Control3_S3,375.42,Control,brute_force_numeric
+GSM4760747_DHG1_S7,453.671,DHG,brute_force_numeric
+GSM4760748_DHG2_S8,368.816,DHG,brute_force_numeric
+GSM4760749_DHG3_S9,440.739,DHG,brute_force_numeric
+GSM4760750_DHGDox1_S10,101.478,DHG+DOX,brute_force_numeric
+GSM4760751_DHGDox2_S11,90.0376,DHG+DOX,brute_force_numeric
+GSM4760752_DHGDox3_S12,91.0794,DHG+DOX,brute_force_numeric
+GSM4760753_Dox1_S4,114.604,DOX,brute_force_numeric
+GSM4760754_Dox2_S5,108.726,DOX,brute_force_numeric
+GSM4760755_Dox3_S6,87.2425,DOX,brute_force_numeric

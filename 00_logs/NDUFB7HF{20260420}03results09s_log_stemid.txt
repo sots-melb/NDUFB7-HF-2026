@@ -1,0 +1,48 @@
+
+╔════════════════════════════════════════════════════════════╗
+║     StemID 细胞干性推断分析 (Seurat V4兼容版)            ║
+╚════════════════════════════════════════════════════════════╝
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+========== 0. 加载Seurat对象 ==========
+✅ 加载对象: 503 cells x 21282 genes
+Condition分布:
+
+Control      HF 
+     84     419 
+
+========== 1. Cluster 4关键发现预览 ==========
+各簇NDUFB7平均表达:
+  seurat_clusters condition    NDUFB7
+1               3   Control 2.9993824
+2               5   Control 2.3378416
+4               1        HF 2.1069193
+3               0        HF 2.0359646
+5               2        HF 1.8649400
+6               4        HF 0.3623733
+
+🎯 Cluster 4: HF特异, NDUFB7最低
+
+========== 2. 加载RaceID ==========
+✅ RaceID加载成功
+
+========== 3. 准备RaceID输入 ==========
+Counts矩阵: 21282 x 503 
+✅ 转换为dense matrix
+
+========== 4. StemID计算（约2-5分钟）==========
+SCseq对象创建完成
+Error in filterdata(sc, mintotal = 3000, minexpr = 5, minnumber = 5, maxexpr = Inf,  : 
+  unused arguments (maxexpr = Inf, downsample = FALSE)
+Execution halted

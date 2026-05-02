@@ -1,0 +1,44 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== GSE168742重建 ===
+
+【1】读取 25 个原始文件:
+   counts.csv.gz 
+   GSE168742_Htra3KO_sham1_CM.csv.gz 
+   GSE168742_Htra3KO_sham1_FB.csv.gz 
+   GSE168742_Htra3KO_sham2_CM.csv.gz 
+   GSE168742_Htra3KO_sham2_FB.csv.gz 
+   GSE168742_Htra3KO_TAC1_CM.csv.gz 
+   GSE168742_Htra3KO_TAC1_FB.csv.gz 
+   GSE168742_Htra3KO_TAC2_FB.csv.gz 
+   GSE168742_human_control_CM.csv.gz 
+   GSE168742_human_HF_CM.csv.gz 
+   GSE168742_MI_day1_1.csv.gz 
+   GSE168742_MI_day1_2.csv.gz 
+   GSE168742_MI_day7_1.csv.gz 
+   GSE168742_NCM_10X_sham1.csv.gz 
+   GSE168742_NCM_10X_sham2.csv.gz 
+   GSE168742_NCM_SS2_sham1.csv.gz 
+   GSE168742_NCM_SS2_sham2.csv.gz 
+   GSE168742_NCM_SS2_TAC1.csv.gz 
+   GSE168742_NCM_SS2_TAC2.csv.gz 
+   GSE168742_WT_sham1_CM.csv.gz 
+   GSE168742_WT_sham1_FB.csv.gz 
+   GSE168742_WT_sham2_CM.csv.gz 
+   GSE168742_WT_sham2_FB.csv.gz 
+   GSE168742_WT_TAC1_CM.csv.gz 
+   GSE168742_WT_TAC1_FB.csv.gz 
+Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
+  no lines available in input
+Calls: read.csv -> read.table
+Execution halted

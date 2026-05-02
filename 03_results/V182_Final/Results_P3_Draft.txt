@@ -1,0 +1,20 @@
+
+=== Results P3: NDUFB7 regulates pan-death via ROS-independent mitochondrial energy crisis ===
+
+P3.1 Mitochondrial Complex I collapse in NDUFB7-low cardiomyocytes
+To determine the mechanism linking NDUFB7 downregulation to cardiomyocyte death, we first examined the relationship between NDUFB7 and Complex I subunits in the GSE57338 heart failure cohort (n=313). Spearman correlation analysis revealed that NDUFB7 expression was positively correlated with all 16 quantified Complex I subunits (mean rho=0.42, range 0.31-0.58), confirming that NDUFB7 downregulation is accompanied by pan-Complex I destabilization (Fig. 3A). Notably, NDUFB7 ranked 13th among 16 subunits in death-correlation strength (mean |rho| vs. pan-death markers=0.188), behind catalytic core subunits NDUFS1 (0.302) and NDUFA9 (0.290). However, as a B-subunit responsible for Complex I assembly rather than catalysis, NDUFB7 offers a clinically actionable intervention window absent in essential catalytic subunits.
+
+P3.2 Pan-death pathway activation
+We next tested whether NDUFB7 downregulation activates specific or pan-death programs. In GSE57338, NDUFB7 showed significant negative correlations with ferroptosis (ACSL4 rho=-0.136, p=0.008), apoptosis (CASP3 rho=-0.278, p<0.001), and necroptosis (MLKL rho=-0.347, p<0.001) markers (Fig. 3B). The strongest negative correlation was with TP53 (rho=-0.421, p<0.001), suggesting p53-mediated death surveillance activation. Importantly, all death correlations were directionally consistent: NDUFB7 decrease predicted increase across all death modalities, identifying NDUFB7 as a pan-death suppressor rather than a ferroptosis-specific regulator.
+
+P3.3 ROS-independent regulation
+To test whether NDUFB7→death signaling operates through the canonical ROS→lipid peroxidation axis, we performed partial correlation controlling for 9 ROS genes (NOX1/4, SOD1/2, CAT, PRDX1, TXNRD1, GCLC, GCLM) in GSE57338. Surprisingly, controlling ROS completely abolished none of the NDUFB7-death correlations (0/10 ROS-mediated, all attenuation<0.03; Fig. 3C). This ROS-independent mechanism positions NDUFB7 upstream of the classic ferroptosis pathway, likely via direct ATP/NAD+ depletion rather than ROS accumulation.
+
+P3.4 Ferroptosis-biased defense failure
+In the longitudinal GSE59867 cohort (n=436), NDUFB7 showed a strong positive correlation with GPX4 (rho=+0.521, p=1.1e-31) but no correlation with ACSL4 (rho=-0.053, p=0.27). Consequently, the ACSL4/GPX4 ratio—a clinical gold-standard ferroptosis index—was strongly negatively correlated with NDUFB7 (rho=-0.460, p=3.2e-24; Fig. 3D). This asymmetric pattern indicates that NDUFB7 protects against ferroptosis primarily by maintaining GPX4-dependent defense capacity rather than suppressing ACSL4-driven lipid peroxidation, consistent with an energy-crisis mechanism (GPX4 requires NADPH and GSH, both mitochondria-dependent).
+
+P3.5 Cross-species temporal dynamics
+GSE168742 mouse MI time-course analysis revealed that NDUFB7 was acutely upregulated at MI day 1 (mean=2793.7) but fell below baseline by day 7 (mean=883.5), while chronic pressure overload (TAC) caused sustained downregulation (mean=191.0 vs. sham 1989.6). This biphasic pattern suggests NDUFB7 is initially stress-protective but becomes exhausted in chronic HF, defining a therapeutic window for NDUFB7 restoration.
+
+=== Discussion Paragraph ===
+Our pan-death analysis challenges the prevailing view that mitochondrial dysfunction causes cardiomyocyte death primarily via ROS-driven ferroptosis. Instead, we demonstrate that NDUFB7 downregulation triggers death through an ROS-independent energy crisis mechanism, with ferroptosis as the dominant execution pathway due to GPX4 defense failure rather than ACSL4-driven lipid peroxidation. This mechanistic distinction has direct therapeutic implications: ROS scavengers (e.g., NAC, edaravone) may be ineffective in NDUFB7-deficient HF, whereas strategies restoring mitochondrial ATP/NAD+ production or directly stabilizing GPX4 (e.g., ferrostatin-1 analogs) could be more effective.

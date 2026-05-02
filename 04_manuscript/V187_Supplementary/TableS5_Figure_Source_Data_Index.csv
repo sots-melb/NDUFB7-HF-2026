@@ -1,0 +1,14 @@
+Figure,Panel,Source_Data_File,Location_in_Project,Data_Type,n_Observations,Key_Variables
+Fig1,A,GSE57338_NDUFB7_boxplot,03_results/V178_Fixed/GSE57338_gene_level.csv,Gene_expression,313,NDUFB7_Group_HF_Control
+Fig1,B,GSE59867_NDUFB7_boxplot,03_results/V179_Fixed/GSE59867_gene_level.csv,Gene_expression,436,NDUFB7_Group_HF_Control
+Fig1,C,Meta_forest_plot,03_results/V[Meta_dir]/meta_results.csv,Meta-analysis,5,Study_Effect_size_CI
+Fig2,A,SMR_scatter,03_results/V[SMR_dir]/smr_results.csv,SMR,,eQTL_beta_GWAS_beta_SMR_p
+Fig2,B,HEIDI_test,03_results/V[SMR_dir]/heidi_results.csv,HEIDI,,SNP_HEIDI_p
+Fig3,A,ComplexI_heatmap_matrix,03_results/V183_Fixed/Fig3A_Heatmap_Matrix.csv,Correlation_matrix,16,Complex_I_subunits_x_Death_genes
+Fig3,B,Partial_cor_attenuation,03_results/V179_Fixed/D2_Partial_Correlation.csv,Partial_correlation,10,Death_gene_Raw_rho_Partial_rho_Attenuation
+Fig3,C,ACSL4_GPX4_scatter,03_results/V181_Comprehensive/D3_Exact_Stats.csv,Scatter_data,436,NDUFB7_ACSL4_GPX4_Ratio
+Fig3,D,MI_timeline,03_results/V181_Comprehensive/GSE168742_Timeline.csv,Time_series,5,Group_mean_n
+Fig4,A,DOX_model,03_results/V184_Fixed/GSE157282_DOX_FINAL.csv,Bar_plot,12,Sample_NDUFB7_Group
+Fig4,B,Fer1_model,03_results/V183_Fixed/GSE243655_Fer1_FINAL.csv,Bar_plot,8,Sample_NDUFB7_Group
+Fig4,C,Cross_species_timeline,03_results/V181_Comprehensive/GSE168742_Timeline.csv,Bar_plot,5,Group_mean_n
+Fig4,D,Visium_gradient,03_results/V181_Comprehensive/Visium_Spatial_Summary.csv,Bar_plot,3,Region_mean_n

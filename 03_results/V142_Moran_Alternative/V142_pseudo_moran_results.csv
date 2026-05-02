@@ -1,0 +1,4 @@
+"File","N_Cells","N_Genes","Moran_I","Method"
+"Visium_control_P1.h5ad","4269","15730","-0.0062","UMAP"
+"Visium_control_P17.h5ad","2043","13144","0.0103","UMAP"
+"Visium_control_P8.h5ad","2456","13720","0.0175","UMAP"

@@ -1,0 +1,12 @@
+=== 本地Wald Ratio MR（无TwoSampleMR依赖）===
+eQTLGen大小: 62.2 MB
+搜索NDUFB7 (ENSG00000171984)...
+找到 53 行
+首行: 4.2212E-294	rs6139846	20	5799170	G	T	-36.6521	ENSG00000171984	C20orf196	20	5787798	37	31684	0.0	5.3754E-286 
+
+下一步：等UKBB数据就绪后，匹配相同SNP位置
+Wald Ratio = beta_GWAS / beta_eQTL
+
+=== 说明 ===
+本脚本不依赖TwoSampleMR包，纯base R实现
+等eQTLGen(2G)+UKBB(200M)下载完成后，手动匹配SNP并计算Wald Ratio

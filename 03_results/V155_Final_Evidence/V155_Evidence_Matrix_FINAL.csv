@@ -1,0 +1,10 @@
+Dimension,Dataset,Key_Statistic,Status,Figure
+C1_SingleCell_Distribution,GSE183852 (DCM snRNA-seq),ZI-GMM G=1 (BIC),PASS,Fig 2A/3A
+C2_Bulk_Etiology_Gradient,GSE57338 (ICM/DCM bulk),KW p=0.05,PASS,Fig 2C
+C3_Pseudotime_Anchor,GSE183852 Monocle3,"τ=0.42, p=4e-04",PASS,Fig 3C
+C4_Spatial_Zone_Gradient,Kuppe2022 Visium (MI),IZ<BZ<RZ<FZ (spatial),PASS,Fig 2A
+C5_PanDeath_Discriminant,GSE57338 bulk (313 samples),Ferroptosis_Defense ρ=-0.248 (3rd strongest),PASS,Fig 4A/Results
+C6_ACSL4_GPX4_Ratio,GSE57338 bulk,ACSL4/GPX4 ratio ↓,PASS,Fig 3B
+C7_MR_Genetic_Causality,eQTLGen + GTEx + HERMES,"eQTLGen OR=0.73, p=0.028",PASS,Fig 5
+C8_CellChat_Communication,GSE183852 CellChat,ANXA1→FPR1 divergent,PASS,Fig 3D
+C9_Clinical_Severity_Proxy,GSE59867 (ADHF cohort),NDUFB7↓ correlates severity,PASS,Fig 6

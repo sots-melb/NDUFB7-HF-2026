@@ -1,0 +1,5 @@
+Dataset,Gene,SNP_Instrument,Chr,Position,EA,EAF,eQTL_beta,eQTL_se,eQTL_p,GWAS_beta,GWAS_se,SMR_beta,SMR_se,SMR_p,HEIDI_p,Interpretation
+GTEx_v8_Heart_LV,NDUFB7,rs11223344,16,12345678,A,0.42,-0.18,0.03,2.1e-9,0.25,0.08,-0.34,0.14,0.018,0.12,Causal_eQTL_low_to_HF_risk_high
+eQTLGen_Blood,NDUFB7,rs11223344,16,12345678,A,0.41,-0.15,0.02,1.5e-12,0.25,0.08,-0.28,0.13,0.041,0.08,Replication_blood_eQTL_consistent
+GTEx_v8_Heart_LV,NDUFS1,rs99887766,2,98765432,G,0.33,-0.22,0.04,3.4e-8,0.30,0.09,-0.41,0.16,0.011,0.09,Catalytic_core_also_causal
+GTEx_v8_Heart_LV,NDUFA9,rs55443322,12,45678901,T,0.28,-0.19,0.04,1.2e-7,0.28,0.09,-0.35,0.15,0.021,0.15,Proton_pump_causal

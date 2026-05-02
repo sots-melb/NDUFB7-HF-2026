@@ -1,0 +1,111 @@
+nohup: ignoring input
+
+╔════════════════════════════════════════════════════════════╗
+║  NDUFB7_Mito_2026 - 修复下载（智能跳过超大文件）           ║
+╚════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━ 修复Part 1失败GSE ━━━━━━━━━━━━━━━━
+⬇️  下载 GSE48166 → GSE48166_Cufflinks_FPKM.txt.gz
+[32m07:38:45 ✅[0m GSE48166 完成 (5.2M)
+⬇️  下载 GSE46224 → GSE46224_Yang_et_al_human_heart_RNASeq.txt.gz
+[32m07:38:53 ✅[0m GSE46224 完成 (2.5M)
+⬇️  下载 GSE46224 → GSE46224_Yang_et_al_human_heart_miRNASeq.txt.gz
+[32m07:39:00 ✅[0m GSE46224 完成 (45K)
+⬇️  下载 GSE5406 → GSE5406_series_matrix.txt.gz
+[31m07:39:04 ❌[0m GSE5406 失败
+━━━━━━━━━━━━━━━━ 修复Part 2失败GSE ━━━━━━━━━━━━━━━━
+⬇️  下载 GSE277721 → GSE277721_series_matrix.txt.gz
+[31m07:39:09 ❌[0m GSE277721 失败
+⬇️  下载 GSE270788 → GSE270788_series_matrix.txt.gz
+[31m07:39:14 ❌[0m GSE270788 失败
+⬇️  下载 GSE40066 → GSE40066_RAW.tar
+[32m07:41:44 ✅[0m GSE40066 完成 (126M)
+⬇️  下载 GSE262714 → GSE262714_raw_counts_heart.csv.gz
+[32m07:41:53 ✅[0m GSE262714 完成 (3.1M)
+━━━━━━━━━━━━━━━━ Part 2 剩余GSE ━━━━━━━━━━━━━━━━
+⬇️  下载 GSE138425 → GSE138425_series_matrix.txt.gz
+[31m07:41:58 ❌[0m GSE138425 失败
+⬇️  下载 GSE162429 → GSE162429_series_matrix.txt.gz
+[31m07:42:03 ❌[0m GSE162429 失败
+⬇️  下载 GSE141512 → GSE141512_series_matrix.txt.gz
+[31m07:42:08 ❌[0m GSE141512 失败
+⬇️  下载 GSE213677 → GSE213677_series_matrix.txt.gz
+[31m07:42:13 ❌[0m GSE213677 失败
+⬇️  下载 GSE242046 → GSE242046_series_matrix.txt.gz
+[31m07:42:18 ❌[0m GSE242046 失败
+⬇️  下载 GSE246410 → GSE246410_series_matrix.txt.gz
+[31m07:42:24 ❌[0m GSE246410 失败
+━━━━━━━━━━━━━━━━ GSE217494 (10x多文件) ━━━━━━━━━━━━━━━━
+⬇️  下载 GSE217494 → GSE217494_sample1.barcodes.tsv.gz
+[32m07:42:30 ✅[0m GSE217494 完成 (43K)
+⬇️  下载 GSE217494 → GSE217494_sample1.features.tsv.gz
+[32m07:42:38 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample1.matrix.mtx.gz
+[32m07:42:53 ✅[0m GSE217494 完成 (84M)
+⬇️  下载 GSE217494 → GSE217494_sample2.barcodes.tsv.gz
+[32m07:43:00 ✅[0m GSE217494 完成 (45K)
+⬇️  下载 GSE217494 → GSE217494_sample2.features.tsv.gz
+[32m07:43:07 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample2.matrix.mtx.gz
+[32m07:43:22 ✅[0m GSE217494 完成 (85M)
+⬇️  下载 GSE217494 → GSE217494_sample3.barcodes.tsv.gz
+[31m07:43:27 ❌[0m GSE217494 失败
+⬇️  下载 GSE217494 → GSE217494_sample3.features.tsv.gz
+[31m07:43:32 ❌[0m GSE217494 失败
+⬇️  下载 GSE217494 → GSE217494_sample3.matrix.mtx.gz
+[31m07:43:37 ❌[0m GSE217494 失败
+⬇️  下载 GSE217494 → GSE217494_sample4.barcodes.tsv.gz
+[32m07:43:43 ✅[0m GSE217494 完成 (49K)
+⬇️  下载 GSE217494 → GSE217494_sample4.features.tsv.gz
+[32m07:43:50 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample4.matrix.mtx.gz
+[32m07:44:06 ✅[0m GSE217494 完成 (96M)
+⬇️  下载 GSE217494 → GSE217494_sample5.barcodes.tsv.gz
+[32m07:44:13 ✅[0m GSE217494 完成 (27K)
+⬇️  下载 GSE217494 → GSE217494_sample5.features.tsv.gz
+[32m07:44:20 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample5.matrix.mtx.gz
+[32m07:44:34 ✅[0m GSE217494 完成 (54M)
+⬇️  下载 GSE217494 → GSE217494_sample6.barcodes.tsv.gz
+[32m07:44:40 ✅[0m GSE217494 完成 (55K)
+⬇️  下载 GSE217494 → GSE217494_sample6.features.tsv.gz
+[32m07:44:47 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample6.matrix.mtx.gz
+[32m07:45:01 ✅[0m GSE217494 完成 (97M)
+⬇️  下载 GSE217494 → GSE217494_sample7.barcodes.tsv.gz
+[32m07:45:08 ✅[0m GSE217494 完成 (44K)
+⬇️  下载 GSE217494 → GSE217494_sample7.features.tsv.gz
+[32m07:45:15 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample7.matrix.mtx.gz
+[32m07:45:31 ✅[0m GSE217494 完成 (87M)
+⬇️  下载 GSE217494 → GSE217494_sample8.barcodes.tsv.gz
+[32m07:45:37 ✅[0m GSE217494 完成 (34K)
+⬇️  下载 GSE217494 → GSE217494_sample8.features.tsv.gz
+[32m07:45:44 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample8.matrix.mtx.gz
+[32m07:45:56 ✅[0m GSE217494 完成 (50M)
+⬇️  下载 GSE217494 → GSE217494_sample9.barcodes.tsv.gz
+[32m07:46:02 ✅[0m GSE217494 完成 (63K)
+⬇️  下载 GSE217494 → GSE217494_sample9.features.tsv.gz
+[32m07:48:20 ✅[0m GSE217494 完成 (301K)
+⬇️  下载 GSE217494 → GSE217494_sample9.matrix.mtx.gz
+[32m07:51:02 ✅[0m GSE217494 完成 (92M)
+⬇️  下载 GSE217494 → GSE217494_sample10.barcodes.tsv.gz
+[31m07:51:08 ❌[0m GSE217494 失败
+⬇️  下载 GSE217494 → GSE217494_sample10.features.tsv.gz
+[31m07:51:13 ❌[0m GSE217494 失败
+⬇️  下载 GSE217494 → GSE217494_sample10.matrix.mtx.gz
+[31m07:51:18 ❌[0m GSE217494 失败
+
+╔════════════════════════════════════════════════════════════╗
+║  修复下载完成！                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+📊 统计:
+   成功: 29
+   失败: 15
+   跳过: 0
+   超大文件(需手动): 0
+
+📁 日志: /home/y411869/Projects/NDUFB7_HF_2026_04_20/04_logs/master_download_v2.log
+💡 超大文件(>10GB)需从GEO网页手动下载matrix文件替代

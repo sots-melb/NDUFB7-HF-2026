@@ -1,0 +1,11 @@
+Platform,N,Effect,p,Strength,Meaning
+Visium (Kuppe),"19,525 spots",FZ 40.2% vs IZ 64.9%,1.5e-10,⭐⭐⭐⭐⭐,空间特异性丢失
+GSE183852 snRNA,"220,752 nuclei",Donor CM 0.205 vs DCM 0.140,5e-25,⭐⭐⭐⭐⭐,细胞类型特异性
+GSE168742 Bulk,762,Control 462 vs HF 187,1.5e-10,⭐⭐⭐⭐⭐,第三队列验证
+GSE109816 scRNA,"9,994",NCM>CM (LA反常),4.4e-82,⭐⭐⭐⭐,解剖位置特异性
+GSE315590 Mouse,"10,164",8W↑203 vs 16W↓46,0.001,⭐⭐⭐⭐,跨物种+时间动态
+GSE59867 PBMC,436,HF 8.07 vs non-HF 7.88,0.082,⭐⭐,外周血探索性标志物
+eQTLGen MR,"555,553",beta=0.21 (risk),0.12,⭐,遗传趋势性（不显著）
+GTEx MR,"564,475",beta=0.08 (risk),0.47,⭐,心脏遗传不显著
+Moran I,"8,224 spots",FZ=0.119,N/A,⭐⭐⭐,中等空间自相关
+GSE57338 Ferro,313,铁死亡相关性待定,N/A,⭐⭐,机制探索

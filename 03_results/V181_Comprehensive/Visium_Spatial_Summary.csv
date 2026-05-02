@@ -1,0 +1,4 @@
+Source_Region,n,mean,median
+V6b_Visium_residual_correction.csv_FZ,2410,-0.0223,-0.2868
+V6b_Visium_residual_correction.csv_IZ,3771,-0.1542,0.0176
+V6b_Visium_residual_correction.csv_CTRL,4269,0.1488,0.3174

@@ -1,0 +1,7 @@
+nohup: ignoring input
+--2026-04-22 16:31:21--  https://broad-ukb-sumstats-us-east-1.s3.amazonaws.com/flat_files/phecode-heart_failure.tsv.bgz
+Resolving broad-ukb-sumstats-us-east-1.s3.amazonaws.com (broad-ukb-sumstats-us-east-1.s3.amazonaws.com)... 198.18.5.190
+Connecting to broad-ukb-sumstats-us-east-1.s3.amazonaws.com (broad-ukb-sumstats-us-east-1.s3.amazonaws.com)|198.18.5.190|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-04-22 16:31:22 ERROR 404: Not Found.
+

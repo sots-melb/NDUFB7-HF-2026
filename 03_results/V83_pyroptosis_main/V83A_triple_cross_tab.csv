@@ -1,0 +1,7 @@
+NDUFB7_level,pyro_high,False,True
+NDUFB7_high,False,1135,1274
+NDUFB7_high,True,726,1284
+NDUFB7_low,False,2534,1098
+NDUFB7_low,True,550,237
+NDUFB7_zero,False,18722,13854
+NDUFB7_zero,True,8594,14502

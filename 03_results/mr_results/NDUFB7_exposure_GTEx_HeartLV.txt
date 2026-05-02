@@ -1,0 +1,2 @@
+SNP	beta	se	pval	effect_allele	other_allele	samplesize	exposure	id.exposure	Gene	GeneChr	GenePos
+rs8103021	-0.0803	0.0166	6.55e-06	T	C	387	NDUFB7_eQTL_HeartLV	NDUFB7_Heart	NDUFB7	19	14641837

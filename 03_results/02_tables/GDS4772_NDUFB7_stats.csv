@@ -1,0 +1,2 @@
+"Dataset","Platform","Probe","Control_n","Case_n","Control_mean","Case_mean","p_value","cohens_d","CI_lower","CI_upper"
+"GDS4772","Affymetrix U133A","8034843",5,12,8.4067,8.4996,0.442146089204913,0.369,-0.682,1.419

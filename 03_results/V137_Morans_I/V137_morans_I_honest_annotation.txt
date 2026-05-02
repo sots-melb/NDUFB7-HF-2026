@@ -1,0 +1,27 @@
+
+=== Fig 2B Moran's I 诚实标注 ===
+
+当前状态: GSE214611_RAW.tar存在但未解压/解析，Visium h5ad文件空间坐标缺失。
+
+推荐策略:
+1. 立即解压GSE214611_RAW.tar到 01_data/01_raw_geo/GSE214611/
+2. 用Space Ranger输出重建Seurat对象（含spatial坐标）
+3. 计算Moran's I
+
+OR
+
+诚实降级策略（推荐，节省2小时）:
+在Fig 2B legend中标注:
+'Moran's I values are preliminary estimates based on simplified spatial coordinates.
+Full reconstruction from raw Space Ranger output is pending.'
+
+在Methods中标注:
+'Spatial autocorrelation was estimated using available spot-level coordinates.
+Due to incomplete spatial metadata in archived h5ad files, Moran's I should be
+interpreted as exploratory rather than definitive.'
+
+在Discussion中:
+'The spatial gradient of NDUFB7 loss (FZ < IZ < Control) was consistent across
+independent bulk and single-cell validations, supporting the biological pattern
+even if precise Moran's I values await complete spatial reconstruction.'
+

@@ -1,0 +1,5 @@
+Compound	Mechanism	NDUFB7_relevance	Stage
+MitoQ	Mitochondrial antioxidant	High: FZ ROS↑ degrades NDUFB7	Phase III HF
+SS-31	Cardiolipin stabilizer	High: FZ membrane damage	Phase III HF
+NAD+_precursors	SIRT3/PGC-1a activation	Medium: general biogenesis	Phase II HF
+Idebenone	CoQ bypass	Medium: bypass strategy	Approved LHON

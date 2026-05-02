@@ -1,0 +1,3 @@
+File,Region,N_Spots,NDUFB7_Mean,NDUFB7_Pct,Moran_I,P_Value,Status
+Visium_RZ_BZ_P12.h5ad,Error,0,,,,,Error: 'Spatial basis `spatial` not found in `adata.obsm`
+Visium_IZ_BZ_P2.h5ad,Error,0,,,,,Error: 'Spatial basis `spatial` not found in `adata.obsm`

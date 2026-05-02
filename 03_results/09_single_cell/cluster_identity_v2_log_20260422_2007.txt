@@ -1,0 +1,102 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== Cluster 4/5 生物学身份鉴定 v2 ===
+
+【1】Top marker genes per cluster
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+# A tibble: 20 × 4
+# Groups:   cluster [2]
+   gene    cluster avg_log2FC p_val_adj
+   <chr>   <fct>        <dbl>     <dbl>
+ 1 SNAR-E  4             3.09  9.87e-46
+ 2 SNAR-G1 4             3.02  3.77e-42
+ 3 SNAR-I  4             2.85  5.70e-36
+ 4 PLA2G2A 4             4.03  4.69e-33
+ 5 MYH7    4             2.30  1.52e-22
+ 6 CKB     4             2.27  1.34e-19
+ 7 GPX3    4             2.58  2.81e-19
+ 8 APOD    4             2.36  1.28e-14
+ 9 PGAM2   4             2.05  1.20e-13
+10 HSPB3   4             2.16  1.89e- 3
+11 S100A12 5             5.81  1.40e-52
+12 BCL2A1  5             3.18  8.90e-45
+13 IL1R2   5             3.08  3.05e-42
+14 RETN    5             3.21  2.46e-39
+15 ALOX5AP 5             3.61  6.74e-38
+16 FCER1G  5             4.36  2.34e-34
+17 S100A8  5             5.93  2.75e-32
+18 FPR1    5             3.32  4.38e-30
+19 S100A9  5             5.75  1.65e-29
+20 TYROBP  5             3.11  1.35e-23
+
+【2】Control细胞中各cluster的NDUFB7
+Cluster 3 : n= 1 , NDUFB7= 4.161 
+Cluster 4 : n= 46 , NDUFB7= 2.963 
+Cluster 5 : n= 37 , NDUFB7= 2.331 
+
+【3】心肌细胞标记基因表达
+
+ MYH6 :
+  Cluster 4 : mean= 0.392 
+  Cluster 5 : mean= 0.273 
+
+ MYH7 :
+  Cluster 4 : mean= 3.527 
+  Cluster 5 : mean= 3.089 
+
+ MYBPC3 :
+  Cluster 4 : mean= 1.547 
+  Cluster 5 : mean= 1.162 
+
+ TTN :
+  Cluster 4 : mean= 1.394 
+  Cluster 5 : mean= 1.06 
+
+ ACTC1 :
+  Cluster 4 : mean= 2.01 
+  Cluster 5 : mean= 1.785 
+
+ RYR2 :
+  Cluster 4 : mean= 1.14 
+  Cluster 5 : mean= 0.88 
+
+ PLN :
+  Cluster 4 : mean= 2.879 
+  Cluster 5 : mean= 2.242 
+
+ NPPA :
+  Cluster 4 : mean= 0.82 
+  Cluster 5 : mean= 0.809 
+
+ NPPB :
+  Cluster 4 : mean= 0.088 
+  Cluster 5 : mean= 0.249 
+
+【4】OXPHOS模块评分
+使用基因: NDUFB7, NDUFB4, NDUFB10, NDUFA8, NDUFA9 
+OXPHOS模块评分:
+Cluster 0 : mean= 0.425 
+Cluster 1 : mean= 0.16 
+Cluster 2 : mean= 0.12 
+Cluster 3 : mean= -0.106 
+Cluster 4 : mean= 0.904 
+Cluster 5 : mean= 0.633 
+Cluster 6 : mean= 0.032 
+
+✅ 保存带注释的对象

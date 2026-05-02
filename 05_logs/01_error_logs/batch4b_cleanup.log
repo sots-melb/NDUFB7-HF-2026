@@ -1,0 +1,14 @@
+=== 第四批-步骤B：安全清理 ===
+【1/3】验证幽灵目录备份...
+  ✅ 备份确认: /home/y411869/Projects/.backups/ghost_merge_20260424_2114 (2.7G)
+
+【2/3】删除幽灵目录...
+  ✅ 已删除: /home/y411869/Projects/NDUFB7_HF_{2026_04_20} (释放 2.7G)
+
+【3/3】生成Downloads清理执行脚本...
+  ✅ 清理脚本生成: /home/y411869/Projects/NDUFB7_HF_2026_04_20/05_logs/01_error_logs/execute_downloads_cleanup.sh
+
+执行方式: bash /home/y411869/Projects/NDUFB7_HF_2026_04_20/05_logs/01_error_logs/execute_downloads_cleanup.sh
+（建议先查看脚本内容确认无误后执行）
+
+=== 清理准备完成 ===

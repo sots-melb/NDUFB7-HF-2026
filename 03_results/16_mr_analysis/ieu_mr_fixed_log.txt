@@ -1,0 +1,33 @@
+TwoSampleMR version 0.5.7 
+[>] New: Option to use non-European LD reference panels for clumping etc
+[>] Some studies temporarily quarantined to verify effect allele
+[>] See news(package='TwoSampleMR') and https://gwas.mrcieu.ac.uk for further details
+
+
+Warning:
+You are running an old version of the TwoSampleMR package.
+This version:   0.5.7
+Latest version: 0.7.4
+Please consider updating using remotes::install_github('MRCIEU/TwoSampleMR')
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== IEU MR分析（修复版）===
+
+【Step 1】检查IEU数据库中可用的GTEx数据集...
+API: public: http://gwas-api.mrcieu.ac.uk/
+  列出数据集失败: Argument 1 must be a data frame or a named atomic vector. 
+
+【Step 2】直接查询NDUFB7 eQTL...
+  ✗ 失败: argument is of length zero 
+  建议改用本地手动Wald Ratio实现
+
+=== 完成 ===

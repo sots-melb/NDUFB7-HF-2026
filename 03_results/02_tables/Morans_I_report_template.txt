@@ -1,0 +1,30 @@
+
+=== Moran's I Report Template (待填入真实值) ===
+
+Dataset: Kuppe Visium V1 (6 hearts, 19,525 spots)
+Gene: NDUFB7 (ENSG00000167996)
+
+Global Moran's I:
+  I = [待计算] (Expected = -1/(n-1) ≈ -0.00005)
+  p-value = [待计算]
+  Interpretation: [I>0 → 正空间自相关 → 伪重复存在]
+
+Sample-level Moran's I:
+  FZ_P20:  I = [待计算], p = [待计算]
+  GT_IZ_P13: I = [待计算], p = [待计算]
+  GT_IZ_P15: I = [待计算], p = [待计算]
+  GT_IZ_P9:  I = [待计算], p = [待计算]
+  IZ_P3:     I = [待计算], p = [待计算]
+  IZ_BZ_P2:  I = [待计算], p = [待计算]
+
+LMM Justification:
+  Fixed effects model AIC: [待计算]
+  Mixed effects model AIC: [待计算]
+  Delta AIC: [待计算] (>2支持LMM)
+  
+Conclusion: 
+  Visium spots exhibit significant positive spatial autocorrelation 
+  (Moran's I = [X], p < 0.001), confirming pseudoreplication. 
+  Linear mixed-effects models with sample ID as random effect 
+  are statistically necessary and appropriately conservative.
+

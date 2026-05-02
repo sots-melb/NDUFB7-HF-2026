@@ -1,0 +1,437 @@
+geo_accession,patient_id,timepoint,group,hf_progression,NDUFB7_expr
+GSM1448335,1Z,admission,MI_unknown,N/A,7.16601
+GSM1448336,1Z,discharge,MI_unknown,N/A,7.17191
+GSM1448337,1Z,1mo,MI_unknown,N/A,7.31002
+GSM1448338,2Z,admission,MI_unknown,N/A,7.40109
+GSM1448339,2Z,discharge,MI_unknown,N/A,7.49723
+GSM1448340,2Z,1mo,MI_unknown,N/A,7.21614
+GSM1448341,2Z,6mo,MI_unknown,N/A,7.47064
+GSM1448342,3Z,admission,MI_unknown,N/A,7.54359
+GSM1448343,3Z,discharge,MI_unknown,N/A,6.74203
+GSM1448344,3Z,1mo,MI_unknown,N/A,7.6832
+GSM1448345,3Z,6mo,MI_unknown,N/A,7.15862
+GSM1448346,4Z,admission,HF,HF,7.19853
+GSM1448347,4Z,discharge,HF,HF,7.12327
+GSM1448348,4Z,1mo,HF,HF,7.38784
+GSM1448349,4Z,6mo,HF,HF,6.83203
+GSM1448350,5Z,admission,MI_unknown,N/A,7.64672
+GSM1448351,5Z,discharge,MI_unknown,N/A,7.04942
+GSM1448352,6Z,admission,MI_unknown,N/A,7.85465
+GSM1448353,6Z,discharge,MI_unknown,N/A,7.07444
+GSM1448354,6Z,1mo,MI_unknown,N/A,7.25301
+GSM1448355,6Z,6mo,MI_unknown,N/A,7.30292
+GSM1448356,7Z,admission,MI_unknown,N/A,7.02956
+GSM1448357,7Z,discharge,MI_unknown,N/A,6.90647
+GSM1448358,7Z,1mo,MI_unknown,N/A,7.0464
+GSM1448359,7Z,6mo,MI_unknown,N/A,7.17156
+GSM1448360,8Z,admission,MI_unknown,N/A,7.02345
+GSM1448361,8Z,discharge,MI_unknown,N/A,7.2849
+GSM1448362,8Z,1mo,MI_unknown,N/A,7.07267
+GSM1448363,8Z,6mo,MI_unknown,N/A,7.30305
+GSM1448364,9Z,admission,MI_unknown,N/A,6.6355
+GSM1448365,9Z,discharge,MI_unknown,N/A,6.95407
+GSM1448366,9Z,1mo,MI_unknown,N/A,6.64941
+GSM1448367,9Z,6mo,MI_unknown,N/A,7.22062
+GSM1448368,10Z,admission,MI_unknown,N/A,6.9526
+GSM1448369,10Z,discharge,MI_unknown,N/A,7.49714
+GSM1448370,10Z,1mo,MI_unknown,N/A,6.9984
+GSM1448371,11Z,admission,MI_unknown,N/A,6.83368
+GSM1448372,11Z,discharge,MI_unknown,N/A,6.76761
+GSM1448373,11Z,1mo,MI_unknown,N/A,6.9031
+GSM1448374,11Z,6mo,MI_unknown,N/A,7.27739
+GSM1448375,12Z,admission,MI_unknown,N/A,7.29545
+GSM1448376,12Z,discharge,MI_unknown,N/A,7.0204
+GSM1448377,12Z,6mo,MI_unknown,N/A,7.34719
+GSM1448378,13Z,admission,MI_unknown,N/A,7.27061
+GSM1448379,13Z,discharge,MI_unknown,N/A,7.43411
+GSM1448380,14Z,admission,MI_unknown,N/A,7.28395
+GSM1448381,14Z,discharge,MI_unknown,N/A,7.03938
+GSM1448382,14Z,1mo,MI_unknown,N/A,7.21944
+GSM1448383,15Z,admission,MI_unknown,N/A,7.16316
+GSM1448384,15Z,discharge,MI_unknown,N/A,7.01219
+GSM1448385,15Z,1mo,MI_unknown,N/A,7.10223
+GSM1448386,16Z,admission,MI_unknown,N/A,7.35864
+GSM1448387,16Z,discharge,MI_unknown,N/A,6.79244
+GSM1448388,16Z,1mo,MI_unknown,N/A,6.61508
+GSM1448389,17Z,admission,MI_unknown,N/A,6.80518
+GSM1448390,17Z,discharge,MI_unknown,N/A,6.97481
+GSM1448391,18Z,admission,MI_unknown,N/A,7.46523
+GSM1448392,18Z,discharge,MI_unknown,N/A,7.30863
+GSM1448393,18Z,1mo,MI_unknown,N/A,7.32356
+GSM1448394,18Z,6mo,MI_unknown,N/A,7.68158
+GSM1448395,19Z,admission,MI_unknown,N/A,6.85506
+GSM1448396,19Z,discharge,MI_unknown,N/A,7.31976
+GSM1448397,19Z,1mo,MI_unknown,N/A,7.37338
+GSM1448398,20Z,admission,MI_unknown,N/A,7.4575
+GSM1448399,20Z,discharge,MI_unknown,N/A,6.92775
+GSM1448400,20Z,1mo,MI_unknown,N/A,7.24418
+GSM1448401,21Z,admission,MI_unknown,N/A,7.29623
+GSM1448402,21Z,discharge,MI_unknown,N/A,7.21092
+GSM1448403,21Z,1mo,MI_unknown,N/A,6.66648
+GSM1448404,21Z,6mo,MI_unknown,N/A,7.07179
+GSM1448405,22Z,admission,MI_unknown,N/A,7.13567
+GSM1448406,22Z,discharge,MI_unknown,N/A,6.91377
+GSM1448407,22Z,1mo,MI_unknown,N/A,6.95566
+GSM1448408,22Z,6mo,MI_unknown,N/A,6.93497
+GSM1448409,23Z,admission,MI_unknown,N/A,7.01976
+GSM1448410,23Z,discharge,MI_unknown,N/A,7.15541
+GSM1448411,23Z,1mo,MI_unknown,N/A,7.38522
+GSM1448412,23Z,6mo,MI_unknown,N/A,7.42774
+GSM1448413,24Z,admission,MI_unknown,N/A,7.4485
+GSM1448414,24Z,discharge,MI_unknown,N/A,7.17391
+GSM1448415,24Z,1mo,MI_unknown,N/A,6.98947
+GSM1448416,24Z,6mo,MI_unknown,N/A,7.12987
+GSM1448417,25Z,admission,MI_unknown,N/A,7.18194
+GSM1448418,25Z,discharge,MI_unknown,N/A,7.16765
+GSM1448419,25Z,1mo,MI_unknown,N/A,7.22774
+GSM1448420,25Z,6mo,MI_unknown,N/A,7.2056
+GSM1448421,26Z,admission,MI_unknown,N/A,7.42158
+GSM1448422,26Z,discharge,MI_unknown,N/A,6.9778
+GSM1448423,26Z,1mo,MI_unknown,N/A,6.7829
+GSM1448424,26Z,6mo,MI_unknown,N/A,7.26397
+GSM1448425,27Z,admission,HF,HF,7.2091
+GSM1448426,27Z,discharge,HF,HF,6.75211
+GSM1448427,27Z,1mo,HF,HF,7.80562
+GSM1448428,27Z,6mo,HF,HF,6.89698
+GSM1448429,28Z,admission,MI_unknown,N/A,7.05447
+GSM1448430,28Z,discharge,MI_unknown,N/A,7.02937
+GSM1448431,28Z,1mo,MI_unknown,N/A,7.06543
+GSM1448432,28Z,6mo,MI_unknown,N/A,7.46514
+GSM1448433,29Z,admission,MI_unknown,N/A,7.2762
+GSM1448434,29Z,discharge,MI_unknown,N/A,7.25144
+GSM1448435,29Z,1mo,MI_unknown,N/A,7.42461
+GSM1448436,29Z,6mo,MI_unknown,N/A,7.3583
+GSM1448437,30Z,admission,MI_unknown,N/A,7.27758
+GSM1448438,30Z,6mo,MI_unknown,N/A,7.22577
+GSM1448439,31Z,admission,MI_unknown,N/A,7.10114
+GSM1448440,31Z,discharge,MI_unknown,N/A,7.14897
+GSM1448441,31Z,1mo,MI_unknown,N/A,7.10087
+GSM1448442,32Z,admission,HF,HF,7.31685
+GSM1448443,32Z,discharge,HF,HF,7.29295
+GSM1448444,32Z,1mo,HF,HF,6.78771
+GSM1448445,32Z,6mo,MI_unknown,N/A,7.10452
+GSM1448446,33Z,admission,non_HF,non-HF,6.60062
+GSM1448447,33Z,discharge,non_HF,non-HF,7.21733
+GSM1448448,33Z,1mo,non_HF,non-HF,7.07284
+GSM1448449,33Z,6mo,non_HF,non-HF,7.20417
+GSM1448450,34Z,admission,MI_unknown,N/A,7.50687
+GSM1448451,34Z,discharge,MI_unknown,N/A,6.99375
+GSM1448452,35Z,admission,MI_unknown,N/A,7.11557
+GSM1448453,35Z,1mo,MI_unknown,N/A,6.69242
+GSM1448454,35Z,6mo,MI_unknown,N/A,6.90223
+GSM1448455,36Z,admission,HF,HF,6.99496
+GSM1448456,36Z,discharge,HF,HF,7.11533
+GSM1448457,36Z,1mo,HF,HF,7.5514
+GSM1448458,36Z,6mo,HF,HF,7.24947
+GSM1448459,37Z,admission,MI_unknown,N/A,7.18281
+GSM1448460,37Z,discharge,MI_unknown,N/A,7.25912
+GSM1448461,37Z,1mo,MI_unknown,N/A,7.15385
+GSM1448462,37Z,6mo,MI_unknown,N/A,7.07493
+GSM1448463,38Z,admission,non_HF,non-HF,7.20337
+GSM1448464,38Z,discharge,non_HF,non-HF,7.04354
+GSM1448465,38Z,1mo,non_HF,non-HF,6.65756
+GSM1448466,38Z,6mo,non_HF,non-HF,6.87914
+GSM1448467,39Z,admission,MI_unknown,N/A,7.49618
+GSM1448468,40Z,admission,MI_unknown,N/A,7.11487
+GSM1448469,40Z,discharge,MI_unknown,N/A,7.39258
+GSM1448470,40Z,1mo,MI_unknown,N/A,6.97449
+GSM1448471,41Z,admission,MI_unknown,N/A,7.42378
+GSM1448472,41Z,discharge,MI_unknown,N/A,7.48393
+GSM1448473,41Z,1mo,MI_unknown,N/A,6.96454
+GSM1448474,41Z,6mo,MI_unknown,N/A,7.29887
+GSM1448475,42Z,admission,MI_unknown,N/A,7.03038
+GSM1448476,42Z,discharge,MI_unknown,N/A,6.62483
+GSM1448477,42Z,1mo,MI_unknown,N/A,7.37305
+GSM1448478,42Z,6mo,MI_unknown,N/A,7.11048
+GSM1448479,43Z,admission,MI_unknown,N/A,7.52047
+GSM1448480,43Z,discharge,MI_unknown,N/A,7.18572
+GSM1448481,43Z,1mo,MI_unknown,N/A,6.98073
+GSM1448482,43Z,6mo,MI_unknown,N/A,7.1061
+GSM1448483,44Z,admission,MI_unknown,N/A,7.50316
+GSM1448484,44Z,discharge,MI_unknown,N/A,6.67853
+GSM1448485,45Z,admission,MI_unknown,N/A,7.21712
+GSM1448486,45Z,discharge,MI_unknown,N/A,7.33813
+GSM1448487,45Z,1mo,MI_unknown,N/A,7.04922
+GSM1448488,45Z,6mo,MI_unknown,N/A,7.26166
+GSM1448489,46Z,admission,MI_unknown,N/A,7.21044
+GSM1448490,46Z,discharge,MI_unknown,N/A,7.13544
+GSM1448491,46Z,1mo,MI_unknown,N/A,7.04838
+GSM1448492,46Z,6mo,MI_unknown,N/A,7.5053
+GSM1448493,47Z,admission,MI_unknown,N/A,6.83132
+GSM1448494,47Z,discharge,MI_unknown,N/A,6.633
+GSM1448495,47Z,1mo,MI_unknown,N/A,7.33785
+GSM1448496,47Z,6mo,MI_unknown,N/A,6.98229
+GSM1448497,48Z,admission,MI_unknown,N/A,6.75001
+GSM1448498,48Z,discharge,MI_unknown,N/A,7.08067
+GSM1448499,48Z,1mo,MI_unknown,N/A,7.53639
+GSM1448500,48Z,6mo,MI_unknown,N/A,7.22085
+GSM1448501,49Z,admission,MI_unknown,N/A,6.9899
+GSM1448502,49Z,discharge,MI_unknown,N/A,7.20827
+GSM1448503,49Z,1mo,MI_unknown,N/A,7.3495
+GSM1448504,49Z,6mo,MI_unknown,N/A,6.90185
+GSM1448505,50Z,admission,MI_unknown,N/A,7.69469
+GSM1448506,50Z,discharge,MI_unknown,N/A,7.19896
+GSM1448507,50Z,1mo,MI_unknown,N/A,7.17804
+GSM1448508,51Z,admission,MI_unknown,N/A,7.4112
+GSM1448509,51Z,discharge,MI_unknown,N/A,7.02323
+GSM1448510,51Z,1mo,MI_unknown,N/A,7.54467
+GSM1448511,51Z,6mo,MI_unknown,N/A,7.13144
+GSM1448512,52Z,admission,non_HF,non-HF,7.24227
+GSM1448513,52Z,discharge,non_HF,non-HF,6.79782
+GSM1448514,52Z,1mo,non_HF,non-HF,6.70956
+GSM1448515,52Z,6mo,non_HF,non-HF,7.00502
+GSM1448516,53Z,admission,MI_unknown,N/A,6.49984
+GSM1448517,53Z,discharge,MI_unknown,N/A,7.08819
+GSM1448518,53Z,1mo,MI_unknown,N/A,7.29621
+GSM1448519,54Z,admission,MI_unknown,N/A,7.24401
+GSM1448520,54Z,discharge,MI_unknown,N/A,7.62776
+GSM1448521,54Z,1mo,MI_unknown,N/A,6.82021
+GSM1448522,54Z,6mo,MI_unknown,N/A,7.45926
+GSM1448523,55Z,admission,MI_unknown,N/A,7.61863
+GSM1448524,55Z,discharge,MI_unknown,N/A,7.23672
+GSM1448525,55Z,1mo,MI_unknown,N/A,7.26965
+GSM1448526,56Z,admission,MI_unknown,N/A,6.48969
+GSM1448527,56Z,discharge,MI_unknown,N/A,7.36778
+GSM1448528,56Z,1mo,MI_unknown,N/A,7.23172
+GSM1448529,56Z,6mo,MI_unknown,N/A,6.92113
+GSM1448530,57Z,admission,MI_unknown,N/A,7.10033
+GSM1448531,57Z,discharge,MI_unknown,N/A,6.93578
+GSM1448532,57Z,1mo,MI_unknown,N/A,6.97302
+GSM1448533,57Z,6mo,MI_unknown,N/A,7.20762
+GSM1448534,58Z,admission,MI_unknown,N/A,7.43002
+GSM1448535,58Z,discharge,MI_unknown,N/A,7.34528
+GSM1448536,58Z,1mo,MI_unknown,N/A,7.61538
+GSM1448537,58Z,6mo,MI_unknown,N/A,6.9368
+GSM1448538,59Z,admission,MI_unknown,N/A,7.47355
+GSM1448539,59Z,discharge,MI_unknown,N/A,7.48672
+GSM1448540,59Z,1mo,MI_unknown,N/A,6.60949
+GSM1448541,60Z,admission,MI_unknown,N/A,7.09268
+GSM1448542,60Z,discharge,MI_unknown,N/A,7.02923
+GSM1448543,60Z,1mo,MI_unknown,N/A,7.11412
+GSM1448544,60Z,6mo,MI_unknown,N/A,7.08991
+GSM1448545,61Z,admission,non_HF,non-HF,7.03518
+GSM1448546,61Z,1mo,non_HF,non-HF,7.14711
+GSM1448547,61Z,6mo,non_HF,non-HF,6.8701
+GSM1448548,62Z,admission,MI_unknown,N/A,7.25744
+GSM1448549,62Z,discharge,MI_unknown,N/A,7.16258
+GSM1448550,62Z,1mo,MI_unknown,N/A,7.08523
+GSM1448551,62Z,6mo,MI_unknown,N/A,6.48586
+GSM1448552,63Z,admission,MI_unknown,N/A,6.66518
+GSM1448553,63Z,discharge,MI_unknown,N/A,7.4192
+GSM1448554,64Z,admission,non_HF,non-HF,6.9834
+GSM1448555,64Z,discharge,non_HF,non-HF,7.37194
+GSM1448556,64Z,1mo,non_HF,non-HF,7.48548
+GSM1448557,64Z,6mo,non_HF,non-HF,7.15112
+GSM1448558,65Z,admission,non_HF,non-HF,7.10216
+GSM1448559,65Z,1mo,non_HF,non-HF,6.72708
+GSM1448560,65Z,6mo,non_HF,non-HF,7.12489
+GSM1448561,66Z,admission,MI_unknown,N/A,7.29414
+GSM1448562,66Z,1mo,MI_unknown,N/A,6.69749
+GSM1448563,66Z,6mo,MI_unknown,N/A,6.34817
+GSM1448564,67Z,admission,MI_unknown,N/A,7.03961
+GSM1448565,67Z,discharge,MI_unknown,N/A,7.11498
+GSM1448566,67Z,1mo,MI_unknown,N/A,7.17219
+GSM1448567,67Z,6mo,MI_unknown,N/A,7.12526
+GSM1448568,68Z,admission,MI_unknown,N/A,7.04548
+GSM1448569,68Z,discharge,MI_unknown,N/A,6.64652
+GSM1448570,68Z,1mo,MI_unknown,N/A,6.7427
+GSM1448571,68Z,6mo,MI_unknown,N/A,7.08537
+GSM1448572,69Z,admission,MI_unknown,N/A,7.20727
+GSM1448573,69Z,discharge,MI_unknown,N/A,7.06738
+GSM1448574,69Z,1mo,MI_unknown,N/A,7.35848
+GSM1448575,69Z,6mo,MI_unknown,N/A,6.7691
+GSM1448576,70Z,admission,MI_unknown,N/A,7.25689
+GSM1448577,70Z,discharge,MI_unknown,N/A,7.12428
+GSM1448578,70Z,1mo,MI_unknown,N/A,7.34605
+GSM1448579,70Z,6mo,MI_unknown,N/A,7.3983
+GSM1448580,71Z,admission,MI_unknown,N/A,7.1403
+GSM1448581,71Z,discharge,MI_unknown,N/A,7.21102
+GSM1448582,71Z,1mo,MI_unknown,N/A,7.03738
+GSM1448583,71Z,6mo,MI_unknown,N/A,6.91568
+GSM1448584,72Z,admission,MI_unknown,N/A,7.5333
+GSM1448585,72Z,discharge,MI_unknown,N/A,7.1631
+GSM1448586,72Z,1mo,MI_unknown,N/A,7.37195
+GSM1448587,73Z,admission,MI_unknown,N/A,6.95511
+GSM1448588,73Z,discharge,MI_unknown,N/A,7.48136
+GSM1448589,73Z,1mo,MI_unknown,N/A,6.55537
+GSM1448590,74Z,admission,MI_unknown,N/A,7.49428
+GSM1448591,74Z,discharge,MI_unknown,N/A,7.39772
+GSM1448592,74Z,1mo,MI_unknown,N/A,7.21953
+GSM1448593,74Z,6mo,MI_unknown,N/A,6.4245
+GSM1448594,75Z,admission,MI_unknown,N/A,6.96618
+GSM1448595,75Z,discharge,MI_unknown,N/A,7.29843
+GSM1448596,75Z,1mo,MI_unknown,N/A,6.64268
+GSM1448597,75Z,6mo,MI_unknown,N/A,7.35143
+GSM1448598,76Z,admission,MI_unknown,N/A,7.3911
+GSM1448599,76Z,discharge,MI_unknown,N/A,7.28033
+GSM1448600,76Z,1mo,MI_unknown,N/A,7.40276
+GSM1448601,76Z,6mo,MI_unknown,N/A,6.88358
+GSM1448602,77Z,admission,MI_unknown,N/A,7.38509
+GSM1448603,77Z,discharge,MI_unknown,N/A,7.3095
+GSM1448604,77Z,1mo,MI_unknown,N/A,6.79755
+GSM1448605,77Z,6mo,MI_unknown,N/A,7.52166
+GSM1448606,78Z,admission,MI_unknown,N/A,6.66259
+GSM1448607,78Z,6mo,MI_unknown,N/A,7.54541
+GSM1448608,79Z,admission,MI_unknown,N/A,7.12121
+GSM1448609,79Z,discharge,MI_unknown,N/A,7.56522
+GSM1448610,79Z,1mo,MI_unknown,N/A,7.0837
+GSM1448611,79Z,6mo,MI_unknown,N/A,7.32088
+GSM1448612,80Z,admission,MI_unknown,N/A,6.94276
+GSM1448613,80Z,1mo,MI_unknown,N/A,7.19561
+GSM1448614,80Z,6mo,MI_unknown,N/A,6.94625
+GSM1448615,81Z,admission,MI_unknown,N/A,6.95046
+GSM1448616,81Z,discharge,MI_unknown,N/A,7.34656
+GSM1448617,81Z,1mo,MI_unknown,N/A,6.58355
+GSM1448618,81Z,6mo,MI_unknown,N/A,7.37482
+GSM1448619,82Z,admission,MI_unknown,N/A,6.99523
+GSM1448620,82Z,discharge,MI_unknown,N/A,7.13176
+GSM1448621,83Z,admission,MI_unknown,N/A,7.44793
+GSM1448622,83Z,discharge,MI_unknown,N/A,7.47659
+GSM1448623,83Z,1mo,MI_unknown,N/A,7.20538
+GSM1448624,83Z,6mo,MI_unknown,N/A,7.85646
+GSM1448625,84Z,admission,MI_unknown,N/A,7.04285
+GSM1448626,84Z,discharge,MI_unknown,N/A,7.4385
+GSM1448627,84Z,1mo,MI_unknown,N/A,6.94114
+GSM1448628,84Z,6mo,MI_unknown,N/A,7.33898
+GSM1448629,85Z,admission,MI_unknown,N/A,7.03624
+GSM1448630,86Z,admission,MI_unknown,N/A,7.39146
+GSM1448631,86Z,discharge,MI_unknown,N/A,7.34371
+GSM1448632,86Z,1mo,MI_unknown,N/A,7.09958
+GSM1448633,86Z,6mo,MI_unknown,N/A,6.94279
+GSM1448634,87Z,admission,MI_unknown,N/A,6.86894
+GSM1448635,87Z,discharge,MI_unknown,N/A,7.5528
+GSM1448636,87Z,1mo,MI_unknown,N/A,7.19839
+GSM1448637,87Z,6mo,MI_unknown,N/A,7.16825
+GSM1448638,88Z,admission,MI_unknown,N/A,7.63876
+GSM1448639,89Z,admission,MI_unknown,N/A,6.9262
+GSM1448640,89Z,discharge,MI_unknown,N/A,7.03307
+GSM1448641,89Z,1mo,MI_unknown,N/A,6.93855
+GSM1448642,90Z,admission,MI_unknown,N/A,7.2355
+GSM1448643,90Z,discharge,MI_unknown,N/A,7.00007
+GSM1448644,90Z,1mo,MI_unknown,N/A,7.18184
+GSM1448645,90Z,6mo,MI_unknown,N/A,7.03102
+GSM1448646,91Z,admission,MI_unknown,N/A,7.35001
+GSM1448647,91Z,discharge,MI_unknown,N/A,7.99797
+GSM1448648,91Z,1mo,MI_unknown,N/A,7.46056
+GSM1448649,91Z,6mo,MI_unknown,N/A,6.76977
+GSM1448650,92Z,admission,MI_unknown,N/A,7.24302
+GSM1448651,92Z,discharge,MI_unknown,N/A,7.28898
+GSM1448652,92Z,1mo,MI_unknown,N/A,7.34012
+GSM1448653,92Z,6mo,MI_unknown,N/A,7.69921
+GSM1448654,93Z,admission,MI_unknown,N/A,7.27498
+GSM1448655,93Z,discharge,MI_unknown,N/A,7.1149
+GSM1448656,93Z,1mo,MI_unknown,N/A,7.42276
+GSM1448657,93Z,6mo,MI_unknown,N/A,6.96448
+GSM1448658,94Z,admission,MI_unknown,N/A,7.33412
+GSM1448659,94Z,discharge,MI_unknown,N/A,6.84188
+GSM1448660,94Z,1mo,MI_unknown,N/A,7.35584
+GSM1448661,94Z,6mo,MI_unknown,N/A,6.53301
+GSM1448662,95Z,admission,HF,HF,7.00185
+GSM1448663,95Z,discharge,HF,HF,6.92422
+GSM1448664,95Z,1mo,HF,HF,7.151
+GSM1448665,95Z,6mo,HF,HF,6.89131
+GSM1448666,96Z,admission,HF,HF,7.16182
+GSM1448667,96Z,discharge,HF,HF,6.91592
+GSM1448668,96Z,1mo,HF,HF,7.53944
+GSM1448669,96Z,6mo,HF,HF,7.53022
+GSM1448670,97Z,admission,MI_unknown,N/A,7.6663
+GSM1448671,97Z,discharge,MI_unknown,N/A,7.5265
+GSM1448672,98Z,admission,non_HF,non-HF,7.38305
+GSM1448673,98Z,discharge,non_HF,non-HF,6.8406
+GSM1448674,98Z,1mo,non_HF,non-HF,7.2911
+GSM1448675,98Z,6mo,non_HF,non-HF,7.0419
+GSM1448676,99Z,admission,non_HF,non-HF,7.60341
+GSM1448677,99Z,discharge,non_HF,non-HF,7.33863
+GSM1448678,99Z,1mo,non_HF,non-HF,5.98492
+GSM1448679,99Z,6mo,non_HF,non-HF,6.50477
+GSM1448680,100Z,admission,MI_unknown,N/A,7.47737
+GSM1448681,100Z,discharge,MI_unknown,N/A,6.76237
+GSM1448682,100Z,1mo,MI_unknown,N/A,7.48079
+GSM1448683,100Z,6mo,MI_unknown,N/A,7.20344
+GSM1448684,101Z,admission,HF,HF,7.5375
+GSM1448685,101Z,discharge,HF,HF,7.49108
+GSM1448686,101Z,1mo,HF,HF,7.35844
+GSM1448687,101Z,6mo,HF,HF,7.10872
+GSM1448688,102Z,admission,MI_unknown,N/A,7.31762
+GSM1448689,102Z,discharge,MI_unknown,N/A,7.13419
+GSM1448690,102Z,1mo,MI_unknown,N/A,7.17186
+GSM1448691,102Z,6mo,MI_unknown,N/A,7.31666
+GSM1448692,103Z,admission,HF,HF,7.76413
+GSM1448693,103Z,discharge,HF,HF,6.98986
+GSM1448694,103Z,6mo,HF,HF,7.40902
+GSM1448695,104Z,admission,MI_unknown,N/A,7.7157
+GSM1448696,104Z,discharge,MI_unknown,N/A,7.05922
+GSM1448697,104Z,1mo,MI_unknown,N/A,6.70042
+GSM1448698,104Z,6mo,MI_unknown,N/A,7.53754
+GSM1448699,105Z,admission,MI_unknown,N/A,7.48893
+GSM1448700,105Z,discharge,MI_unknown,N/A,7.3128
+GSM1448701,105Z,6mo,MI_unknown,N/A,7.46867
+GSM1448702,106Z,admission,MI_unknown,N/A,6.80925
+GSM1448703,106Z,discharge,MI_unknown,N/A,7.0847
+GSM1448704,106Z,1mo,MI_unknown,N/A,7.50591
+GSM1448705,106Z,6mo,MI_unknown,N/A,7.583
+GSM1448706,107Z,admission,MI_unknown,N/A,7.34068
+GSM1448707,107Z,discharge,MI_unknown,N/A,7.104
+GSM1448708,107Z,1mo,MI_unknown,N/A,6.65371
+GSM1448709,107Z,6mo,MI_unknown,N/A,6.89134
+GSM1448710,108Z,admission,MI_unknown,N/A,7.43137
+GSM1448711,108Z,discharge,MI_unknown,N/A,7.36771
+GSM1448712,108Z,1mo,MI_unknown,N/A,7.32344
+GSM1448713,108Z,6mo,MI_unknown,N/A,7.31058
+GSM1448714,109Z,admission,HF,HF,7.07003
+GSM1448715,109Z,discharge,HF,HF,7.0824
+GSM1448716,109Z,1mo,HF,HF,7.36395
+GSM1448717,109Z,6mo,HF,HF,7.54369
+GSM1448718,110Z,admission,MI_unknown,N/A,7.39597
+GSM1448719,110Z,discharge,MI_unknown,N/A,7.00653
+GSM1448720,110Z,1mo,MI_unknown,N/A,7.27639
+GSM1448721,110Z,6mo,MI_unknown,N/A,7.50343
+GSM1448722,111Z,admission,MI_unknown,N/A,7.16199
+GSM1448723,111Z,discharge,MI_unknown,N/A,7.05004
+GSM1448724,111Z,1mo,MI_unknown,N/A,7.5315
+GSM1620759,Control patient 1,unknown,SCAD_control,stable CAD,7.1822
+GSM1620760,Control patient 2,unknown,SCAD_control,stable CAD,7.21646
+GSM1620761,Control patient 3,unknown,SCAD_control,stable CAD,7.05337
+GSM1620762,Control patient 4,unknown,SCAD_control,stable CAD,7.33257
+GSM1620763,Control patient 5,unknown,SCAD_control,stable CAD,7.30092
+GSM1620764,Control patient 6,unknown,SCAD_control,stable CAD,6.83524
+GSM1620765,Control patient 7,unknown,SCAD_control,stable CAD,6.98561
+GSM1620766,Control patient 8,unknown,SCAD_control,stable CAD,6.99364
+GSM1620767,Control patient 9,unknown,SCAD_control,stable CAD,6.91713
+GSM1620768,Control patient 10,unknown,SCAD_control,stable CAD,7.6995
+GSM1620769,Control patient 11,unknown,SCAD_control,stable CAD,7.13787
+GSM1620770,Control patient 12,unknown,SCAD_control,stable CAD,6.98211
+GSM1620771,Control patient 13,unknown,SCAD_control,stable CAD,7.17983
+GSM1620772,Control patient 14,unknown,SCAD_control,stable CAD,7.32723
+GSM1620773,Control patient 15,unknown,SCAD_control,stable CAD,7.23329
+GSM1620774,Control patient 16,unknown,SCAD_control,stable CAD,7.29623
+GSM1620775,Control patient 17,unknown,SCAD_control,stable CAD,7.35035
+GSM1620776,Control patient 18,unknown,SCAD_control,stable CAD,7.26487
+GSM1620777,Control patient 19,unknown,SCAD_control,stable CAD,7.00517
+GSM1620778,Control patient 20,unknown,SCAD_control,stable CAD,6.74972
+GSM1620779,Control patient 21,unknown,SCAD_control,stable CAD,6.99649
+GSM1620780,Control patient 22,unknown,SCAD_control,stable CAD,7.40494
+GSM1620781,Control patient 23,unknown,SCAD_control,stable CAD,7.31651
+GSM1620782,Control patient 24,unknown,SCAD_control,stable CAD,7.37606
+GSM1620783,Control patient 25,unknown,SCAD_control,stable CAD,7.29529
+GSM1620784,Control patient 26,unknown,SCAD_control,stable CAD,7.26529
+GSM1620785,Control patient 27,unknown,SCAD_control,stable CAD,7.17453
+GSM1620786,Control patient 28,unknown,SCAD_control,stable CAD,7.53029
+GSM1620787,Control patient 29,unknown,SCAD_control,stable CAD,7.27819
+GSM1620788,Control patient 30,unknown,SCAD_control,stable CAD,7.56092
+GSM1620789,Control patient 31,unknown,SCAD_control,stable CAD,7.6151
+GSM1620790,Control patient 32,unknown,SCAD_control,stable CAD,7.57543
+GSM1620791,Control patient 33,unknown,SCAD_control,stable CAD,7.17239
+GSM1620792,Control patient 34,unknown,SCAD_control,stable CAD,7.25953
+GSM1620793,Control patient 35,unknown,SCAD_control,stable CAD,7.2314
+GSM1620794,Control patient 36,unknown,SCAD_control,stable CAD,7.23323
+GSM1620795,Control patient 37,unknown,SCAD_control,stable CAD,7.31172
+GSM1620796,Control patient 38,unknown,SCAD_control,stable CAD,7.07311
+GSM1620797,Control patient 39,unknown,SCAD_control,stable CAD,7.30685
+GSM1620798,Control patient 40,unknown,SCAD_control,stable CAD,7.58462
+GSM1620799,Control patient 41,unknown,SCAD_control,stable CAD,6.93481
+GSM1620800,Control patient 42,unknown,SCAD_control,stable CAD,7.50828
+GSM1620801,Control patient 43,unknown,SCAD_control,stable CAD,7.18134
+GSM1620802,Control patient 44,unknown,SCAD_control,stable CAD,6.9857
+GSM1620803,Control patient 45,unknown,SCAD_control,stable CAD,7.28285
+GSM1620804,Control patient 46,unknown,SCAD_control,stable CAD,6.8049

@@ -1,0 +1,9 @@
+Test,Value
+DMSO_Mean,1680.5
+Fer1_Mean,1516.3
+Wilcoxon_W,3
+Wilcoxon_P,3.8e-01
+Cohen_D,-1.13
+Direction,DOWN
+Significant,FALSE
+Verdict,INFO

@@ -1,0 +1,7 @@
+Gene,DMSO_Mean,Fer1_Mean,Direction,Interpretation
+GPX4,2263,2815,UP,"Fer-1 upregulates GPX4 defense (+24%), consistent with known mechanism"
+SLC7A11,,,UNCLEAR,"Data format ambiguous, needs re-extraction"
+FTH1,,,UNCLEAR,"Data format ambiguous, needs re-extraction"
+ACSL4,2643,3100,UP,Unexpected UP (Fer-1 should suppress drivers); possible feedback activation
+LPCAT3,1734,1139,DOWN,"Fer-1 downregulates LPCAT3 (-34%), consistent with reduced lipid peroxidation"
+PTGS2,207,969,UNCLEAR,One outlier (2856) dominates; needs outlier-robust analysis

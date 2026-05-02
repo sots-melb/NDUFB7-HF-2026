@@ -1,0 +1,17 @@
+# 大数据文件
+*.tar.gz
+*.rds
+*.h5ad
+*.parquet
+*.soft.gz
+01_data/
+09_tmp/
+03_results/01_seurat_objects/
+
+# 日志
+*.log
+nohup.out
+
+# 系统
+.DS_Store
+06_archive/software/*.zip

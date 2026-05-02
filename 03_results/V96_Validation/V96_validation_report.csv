@@ -1,0 +1,7 @@
+"Test","H0","H1","Result","Verdict","Evidence"
+"F1","NDUFB7在HF中不下调","跨平台一致下调","1/1 平台支持下调","WEAK","GSE183852"
+"F2","OXPHOS与铁死亡无关","氧化应激-NDUFB7耦合","ρ=0.186, p=2.3e-06","MODERATE SUPPORT (代偿环路)","基于T3氧化应激评分"
+"F4","-","-","NO_PHENOTYPE","BLOCKED","V70表型文件无NYHA列"
+"R2","-","-","NO_DATA","BLOCKED","GSE55296未下载/解析"
+"R3","-","-","NO_DATA","BLOCKED","V72文件缺少pre/post列"
+"R4","-","-","NO_DATA","BLOCKED","V83A文件不存在"

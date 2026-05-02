@@ -1,0 +1,8 @@
+Metric,Value,Interpretation
+DMSO_mean,1680.5,Vehicle control
+Fer1_mean,1589.5,Ferrostatin-1 10µM
+Delta_counts,-91.0,No significant change
+Delta_pct,-5.415055043141922,No significant change
+t_stat,0.8939199778272441,NS
+p_value,0.4372300652528027,NS
+N_pair,4.0,"4 patients, paired"

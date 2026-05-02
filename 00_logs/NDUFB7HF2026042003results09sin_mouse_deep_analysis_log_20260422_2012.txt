@@ -1,0 +1,120 @@
+Attaching SeuratObject
+=== 小鼠MI时间序列深度分析 ===
+
+【1】各cluster Ndufb7表达
+Cluster 0 : n= 73 , Ndufb7= 3.686 , 主要来源= MI 
+Cluster 1 : n= 63 , Ndufb7= 2.999 , 主要来源= MI 
+Cluster 2 : n= 56 , Ndufb7= 1.275 , 主要来源= Sham 
+
+【2】时间序列统计检验
+Baseline vs TAC: 
+	Wilcoxon rank sum test with continuity correction
+
+data:  baseline and tac
+W = 535.5, p-value = 0.006874
+alternative hypothesis: true location shift is not equal to 0
+
+Baseline vs Day1: 
+	Wilcoxon rank sum test with continuity correction
+
+data:  baseline and day1
+W = 190.5, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+Baseline vs Day7: 
+	Wilcoxon rank sum test with continuity correction
+
+data:  baseline and day7
+W = 31, p-value = 2.965e-12
+alternative hypothesis: true location shift is not equal to 0
+
+Day1 vs Day7: 
+	Wilcoxon rank sum test with continuity correction
+
+data:  day1 and day7
+W = 1520, p-value = 0.007504
+alternative hypothesis: true location shift is not equal to 0
+
+
+【3】细胞类型鉴定
+
+ Myh6 :
+  Cluster 0 : mean= 3.112 
+  Cluster 1 : mean= 2 
+  Cluster 2 : mean= 0.019 
+
+ Myh7 :
+  Cluster 0 : mean= 0.722 
+  Cluster 1 : mean= 0.446 
+  Cluster 2 : mean= 0.002 
+
+ Ttn :
+  Cluster 0 : mean= 1.938 
+  Cluster 1 : mean= 1.167 
+  Cluster 2 : mean= 0.005 
+
+ Actc1 :
+  Cluster 0 : mean= 4.852 
+  Cluster 1 : mean= 3.63 
+  Cluster 2 : mean= 0.141 
+
+ Dpt :
+  Cluster 0 : mean= 0.057 
+  Cluster 1 : mean= 0.083 
+  Cluster 2 : mean= 2.871 
+
+ Col1a1 :
+  Cluster 0 : mean= 0.093 
+  Cluster 1 : mean= 0.167 
+  Cluster 2 : mean= 1.899 
+
+ Col1a2 :
+  Cluster 0 : mean= 0.078 
+  Cluster 1 : mean= 0.145 
+  Cluster 2 : mean= 1.776 
+
+ Postn :
+  Cluster 0 : mean= 0.098 
+  Cluster 1 : mean= 0.233 
+  Cluster 2 : mean= 0.83 
+
+ Vim :
+  Cluster 0 : mean= 0.239 
+  Cluster 1 : mean= 1.491 
+  Cluster 2 : mean= 2.608 
+
+【4】OXPHOS模块评分（小鼠）
+使用基因: Ndufb7, Ndufb4, Ndufb10, Ndufa8, Ndufa9 
+OXPHOS评分:
+Baseline : mean= 0.191 
+TAC : mean= 0.32 
+Day1 : mean= 1.538 
+Day7 : mean= 1.276 
+
+【5】线粒体生物发生标记
+
+ Ppargc1a :
+   Baseline : mean= 0.009 
+   TAC : mean= 0.137 
+   Day1 : mean= 0.31 
+   Day7 : mean= 0.385 
+
+ Nrf1 :
+   Baseline : mean= 0.235 
+   TAC : mean= 0.094 
+   Day1 : mean= 0.029 
+   Day7 : mean= 0.095 
+
+ Tfam :
+   Baseline : mean= 0.214 
+   TAC : mean= 0.068 
+   Day1 : mean= 0.178 
+   Day7 : mean= 0.083 
+
+ Esrra :
+   Baseline : mean= 0.029 
+   TAC : mean= 0.024 
+   Day1 : mean= 0.168 
+   Day7 : mean= 0.388 
+
+✅ 保存带注释对象

@@ -1,0 +1,21 @@
+
+=== Cluster 3 身份判定框架 ===
+
+IF (nCount_RNA not significantly lower than other clusters) AND
+   (percent.mt not >1.5x other clusters) AND
+   (Complex I genes >=3 significantly down) AND
+   (Stress genes >=2 significantly up)
+THEN → [PASS] Cluster 3 is a biologically valid 'metabolic crisis' subpopulation
+
+IF (nCount_RNA significantly lower OR percent.mt very high)
+THEN → [WARN] Technical artifact possibility — discuss in Methods limitations
+
+IF (Complex I genes NOT down OR Fibrosis markers strongly up)
+THEN → [WARN] Identity ambiguous — may be EndMT-transformed rather than OXPHOS-collapsed
+
+RECOMMENDED PAPER STATEMENT:
+'Cluster 3 (n=48 cells, 7.5% of CM) exhibited complete NDUFB7 silence in 72.9% of cells,
+with concomitant downregulation of [N] Complex I subunits and upregulation of [N] ER
+stress markers, consistent with a metabolically compromised subpopulation. While small
+in absolute number, this cluster was independently observed in Monocle3 pseudotime
+trajectory analysis as the terminal state of NDUFB7 depletion.'

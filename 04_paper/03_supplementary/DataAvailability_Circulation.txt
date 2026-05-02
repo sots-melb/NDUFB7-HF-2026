@@ -1,0 +1,14 @@
+DATA AVAILABILITY STATEMENT
+(Circulation / Cardiovascular Research format)
+
+The data that support the findings of this study are openly available. 
+Spatial transcriptomics: Zenodo 6578047 (Kuppe et al., Nature 2022). 
+Bulk transcriptomics: NCBI GEO GSE57338, GSE116250, GSE55296, GDS4772. 
+Single-cell transcriptomics: NCBI GEO GSE183852. 
+Proteomics: PRIDE PXD010154. 
+Genetic data: eQTLGen Phase I and GTEx v11. 
+
+Analysis scripts (R v4.3.1) are available at [GitHub repository link] and archived at Zenodo [DOI pending]. 
+
+No custom code beyond publicly available R/Bioconductor packages was used. 
+Package versions are documented in sessionInfo.txt (GitHub repository).

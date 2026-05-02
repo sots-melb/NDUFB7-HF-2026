@@ -1,0 +1,9 @@
+DATA AVAILABILITY (Short version)
+
+All data are publicly available:
+- GEO: GSE57338, GSE116250, GSE55296, GDS4772, GSE183852
+- Zenodo: 6578047 (Kuppe Visium)
+- PRIDE: PXD010154
+- eQTLGen Phase I + GTEx v11
+
+Code: GitHub [link] + Zenodo DOI [pending]

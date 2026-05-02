@@ -1,0 +1,67 @@
+nohup: ignoring input
+[2026-04-20 17:54:33] === 批量GEO下载启动 ===
+
+[17:54:33] [P0_must] 开始: GSE141910
+  -> Series Matrix已存在且完好，跳过
+  -> 发现Supplementary目录，下载关键文件...
+  -> 完成: 58M (7 files)
+
+[17:54:49] [P0_must] 开始: GSE57338
+  -> 下载Series Matrix...
+  -> Series Matrix失败（可能无matrix或网络问题）
+  -> 完成: 0 (2 files)
+
+[17:54:58] [P0_must] 开始: GSE168742
+  -> 下载Series Matrix...
+  -> Series Matrix失败（可能无matrix或网络问题）
+  -> 发现Supplementary目录，下载关键文件...
+02_scripts/01_download/00_batch_geo_download.sh: line 24: 177275 Aborted                 (core dumped) wget -c -t 0 --timeout=120 --progress=dot:giga -r -np -nH --cut-dirs=3 -A "*.gz" -P "$target/suppl" "$suppl_url" 2>> "$LOG_DIR/${gse}_suppl.log"
+  -> 完成: 20M (6 files)
+
+[17:56:25] [P1_urgent] 开始: GSE183852
+  -> 下载Series Matrix...
+  -> Series Matrix完成
+  -> 发现Supplementary目录，下载关键文件...
+Terminated
+  -> 完成: 14M (2 files)
+
+[18:06:38] [P1_urgent] 开始: GSE116250
+  -> Series Matrix已存在且完好，跳过
+  -> 发现Supplementary目录，下载关键文件...
+  -> 完成: 9.3M (6 files)
+
+[18:11:39] [P1_urgent] 开始: GSE46224
+  -> Series Matrix已存在且完好，跳过
+  -> 完成: 229K (5 files)
+
+[18:11:44] [P1_urgent] 开始: GSE5406
+  -> 下载Series Matrix...
+  -> Series Matrix失败（可能无matrix或网络问题）
+  -> 完成: 0 (2 files)
+
+[18:11:53] [P1_urgent] 开始: GSE271946
+  -> 下载Series Matrix...
+  -> Series Matrix完成
+  -> 发现Supplementary目录，下载关键文件...
+  -> 完成: 2.0K (2 files)
+
+[18:12:12] [P2_extended] 开始: GSE315590
+  -> 下载Series Matrix...
+  -> Series Matrix完成
+  -> 发现Supplementary目录，下载关键文件...
+  -> 完成: 58M (2 files)
+
+[18:53:15] [P2_extended] 开始: GSE217494
+  -> Series Matrix已存在且完好，跳过
+  -> 发现Supplementary目录，下载关键文件...
+02_scripts/01_download/00_batch_geo_download.sh: line 24: 182633 Aborted                 (core dumped) wget -c -t 0 --timeout=120 --progress=dot:giga -r -np -nH --cut-dirs=3 -A "*.gz" -P "$target/suppl" "$suppl_url" 2>> "$LOG_DIR/${gse}_suppl.log"
+  -> 完成: 3.8M (2 files)
+
+[18:55:40] [P2_extended] 开始: GSE270788
+  -> Series Matrix已存在且完好，跳过
+  -> 发现Supplementary目录，下载关键文件...
+  -> 完成: 1.3M (2 files)
+
+[2026-04-20 18:58:36] === 批量下载任务结束 ===
+[日志] /home/y411869/Projects/NDUFB7_HF_{2026_04_20}/05_logs/batch_download_20260420_175433.log
+[状态] /home/y411869/Projects/NDUFB7_HF_{2026_04_20}/05_logs/download_status.csv

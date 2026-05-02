@@ -1,0 +1,7 @@
+nohup: ignoring input
+--2026-04-22 19:00:16--  https://www.eqtlgen.org/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Resolving www.eqtlgen.org (www.eqtlgen.org)... 198.18.15.65
+Connecting to www.eqtlgen.org (www.eqtlgen.org)|198.18.15.65|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-04-22 19:00:17 ERROR 404: Not Found.
+

@@ -1,0 +1,2 @@
+n_samples,rho,p_value,method,positive_genes,negative_genes,timestamp
+313,-0.00637331381269536,0.910581227664174,pearson,"ACSL4,LPCAT3,ALOX15,SAT1","GPX4,SLC7A11,FTH1,FTL,NFE2L2",2026-04-26T04:23:01.474049Z

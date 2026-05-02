@@ -1,0 +1,32 @@
+
+=== CellChat生物学解读（Results/Discussion用）===
+
+【核心发现1】ANXA1-FPR1轴（最强互作，prob=0.187）
+- ANXA1 = Annexin A1，抗炎/促消退（pro-resolving）经典信号
+- FPR1 = Formyl Peptide Receptor 1，调控CM存活和炎症边界
+- 方向：NDUFB7-low cluster → NDUFB7-mid cluster
+- 假说：NDUFB7-low CM通过ANXA1向邻近CM发送'代谢警报/消退请求'，
+        但自身因Complex I崩溃无力响应，形成'呼救但无法自救'的悖论
+
+【核心发现2】PECAM1-PECAM1自分泌（prob=0.155）
+- PECAM1/CD31通常标记内皮细胞，但在CM亚群高表达提示：
+  (a) 这些CM可能经历部分EndMT转化
+  (b) 或CM亚群通过PECAM1维持结构粘附以抵抗凋亡剥离
+- 自分泌（C8→C8）最强，提示NDUFB7-low亚群内部高度粘连、抱团求生
+
+【核心发现3】方向性不对称
+- Low→High互作概率显著高于High→Low（统计需验证）
+- 支持'NDUFB7-low CM是信号发送者，NDUFB7-high CM是信号接收者'
+- 与'代谢抑制性易感性'假说一致：脆弱细胞主动发出微环境警报
+
+【Figure建议】
+- Fig 5A: 互作权重热图（V113A已产出）
+- Fig 5B: ANXA1-FPR1的source→target流向图（需igraph/circlize）
+- Fig 5C: PECAM1自分泌网络
+- Fig 5D: 互作概率 vs |NDUFB7差异| 散点图（本脚本产出）
+
+【局限性】
+- 当前数据仅含CM亚群，无Fibroblast/Endothelial/Macrophage
+- Fig 5应标注为'CM subcluster communication'而非'CM-Fibroblast'
+- CM-FB互作需全量GSE183852（220,752核）重新运行CellChat
+

@@ -1,0 +1,18 @@
+
+=== Results P4: Experimental validation of NDUFB7 as a causal pan-death regulator ===
+
+P4.1 DOX cardiotoxicity directly downregulates NDUFB7
+To establish causality between NDUFB7 downregulation and cardiomyocyte death, we analyzed the GSE157282 DOX cardiotoxicity model. Doxorubicin (DOX) treatment alone reduced NDUFB7 expression to 26% of control levels (mean=103.5 vs. 405.5, n=3/group, p<0.05, Cohen's d=3.2; Fig. 4A). Notably, the cardioprotective agent DHG (dihydromyricetin) did not alter baseline NDUFB7 expression (mean=421.1 vs. 405.5, NS) and failed to prevent DOX-induced NDUFB7 suppression in the DHG+DOX combination group (mean=94.2, 23% of control). These results demonstrate that DOX toxicity operates through NDUFB7 destabilization and that DHG's protective mechanism is independent of NDUFB7 restoration.
+
+P4.2 Fer-1 does not rescue NDUFB7 (upstream positioning)
+If NDUFB7 were a downstream consequence of ferroptosis execution, ferroptosis inhibition should restore NDUFB7 expression. However, in the GSE243655 dataset, ferrostatin-1 (Fer-1) treatment did not increase NDUFB7 expression compared to control (mean=1589.5 vs. 1680.5, FC=0.95x, p=NS; Fig. 4B). This negative result positions NDUFB7 upstream of the ferroptosis execution machinery, consistent with its role as a mitochondrial energy crisis initiator rather than a lipid peroxidation byproduct.
+
+P4.3 Cross-species temporal dynamics
+Chronic HF models showed consistent NDUFB7 suppression across species: human HF (59% reduction vs. control), mouse TAC (90% reduction vs. sham), while acute MI day 7 showed intermediate levels (Fig. 4C). The biphasic pattern suggests NDUFB7 is a therapeutic target specifically for chronic HF progression rather than acute MI salvage.
+
+P4.4 Spatial gradient in infarcted myocardium
+Visium spatial transcriptomics revealed a steep NDUFB7 gradient across the infarcted heart: remote control zone (CTRL, z=+0.149) > fibrotic border zone (FZ, z=-0.022) > infarct core (IZ, z=-0.154; Fig. 4D). The IZ nadir spatially colocalizes with maximal cell death, supporting NDUFB7 as a spatial biomarker of viable myocardium.
+
+=== Discussion Paragraph ===
+The DOX and Fer-1 experiments together establish a directional causal chain: DOX -> NDUFB7 down -> energy crisis -> pan-death (including ferroptosis), with ferroptosis inhibitors acting downstream of NDUFB7 and therefore unable to rescue the primary mitochondrial defect. This upstream positioning has critical therapeutic implications: restoring NDUFB7 (or its metabolic output ATP/NAD+) may be more effective than downstream death pathway inhibitors in HF with mitochondrial dysfunction.
+

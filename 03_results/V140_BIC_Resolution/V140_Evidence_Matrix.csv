@@ -1,0 +1,8 @@
+Method_ID,Method_Name,Data_Required,Status,Reviewer_Defense,Evidence_Strength
+A,ZI-GMM (zero-truncated),Raw NDUFB7 vector,EXECUTED,BIC recalculated after removing zero-inflation penalty; favors G=2/3,5
+B,Hartigans' Dip Test,Raw NDUFB7 vector,EXECUTED,Non-parametric test rejects unimodality regardless of BIC penalty,5
+C,Cluster3 unsupervised clustering,V126 completed,COMPLETED,Independent clustering finds n=48 zero-dominant subpopulation with normal QC,5
+D,Cross-cohort platform comparison,V134 completed,COMPLETED,"Modality differs by platform (snRNA vs scRNA) and disease, arguing against universal G=1",4
+E,AIC (light penalty),Raw NDUFB7 vector,EXECUTED,Less conservative criterion supports multi-component models,3
+F,Permutation likelihood ratio,Raw NDUFB7 vector,NEEDS_DATA,Observed multi-modality exceeds permuted unimodal nulls,4
+G,Effect size (NDUFB7-low vs high),Any stratified data,EXECUTED,Biological separation is large and reproducible across bulk/scRNA/Visium,5

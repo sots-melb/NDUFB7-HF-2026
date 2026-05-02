@@ -1,0 +1,12 @@
+nohup: ignoring input
+--2026-04-22 19:49:03--  https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files_tabix/phecode-428.2-both_sexes.tsv.bgz.tbi
+Resolving pan-ukb-us-east-1.s3.amazonaws.com (pan-ukb-us-east-1.s3.amazonaws.com)... 198.18.18.153
+Connecting to pan-ukb-us-east-1.s3.amazonaws.com (pan-ukb-us-east-1.s3.amazonaws.com)|198.18.18.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2052326 (2.0M) [binary/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/ukbb_heart_failure_phecode428.2.tsv.bgz.tbi’
+
+     0K .                                  100% 6.38K=5m14s
+
+2026-04-22 19:54:19 (6.38 KB/s) - ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/ukbb_heart_failure_phecode428.2.tsv.bgz.tbi’ saved [2052326/2052326]
+

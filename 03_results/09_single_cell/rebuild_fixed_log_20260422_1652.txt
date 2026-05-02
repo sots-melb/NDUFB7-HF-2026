@@ -1,0 +1,45 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== GSE168742重建（跳过空文件）===
+
+【1】检查 25 个文件:
+  ⚠ 跳过空文件: counts.csv.gz ( 0 bytes)
+  读取: GSE168742_Htra3KO_sham1_CM.csv.gz ( 2261210 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_sham1_FB.csv.gz ( 1239102 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_sham2_CM.csv.gz ( 4647918 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_sham2_FB.csv.gz ( 761798 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_TAC1_CM.csv.gz ( 4160271 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_TAC1_FB.csv.gz ( 582380 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_Htra3KO_TAC2_FB.csv.gz ( 1911919 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_human_control_CM.csv.gz ( 1344120 bytes) ... 23355 基因 x 84 细胞
+  读取: GSE168742_human_HF_CM.csv.gz ( 17103345 bytes) ... 23355 基因 x 678 细胞
+  读取: GSE168742_MI_day1_1.csv.gz ( 2150014 bytes) ... 22134 基因 x 84 细胞
+  读取: GSE168742_MI_day1_2.csv.gz ( 2465959 bytes) ... 22134 基因 x 88 细胞
+  读取: GSE168742_MI_day7_1.csv.gz ( 2992417 bytes) ... 22134 基因 x 91 细胞
+  读取: GSE168742_NCM_10X_sham1.csv.gz ( 2690352 bytes) ... 27930 基因 x 5361 细胞
+  读取: GSE168742_NCM_10X_sham2.csv.gz ( 1757991 bytes) ... 27930 基因 x 3294 细胞
+  读取: GSE168742_NCM_SS2_sham1.csv.gz ( 1416966 bytes) ... 33739 基因 x 52 细胞
+  读取: GSE168742_NCM_SS2_sham2.csv.gz ( 2365413 bytes) ... 33739 基因 x 81 细胞
+  读取: GSE168742_NCM_SS2_TAC1.csv.gz ( 1623282 bytes) ... 33739 基因 x 57 细胞
+  读取: GSE168742_NCM_SS2_TAC2.csv.gz ( 3624474 bytes) ... 33739 基因 x 140 细胞
+  读取: GSE168742_WT_sham1_CM.csv.gz ( 4697399 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_WT_sham1_FB.csv.gz ( 3720834 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_WT_sham2_CM.csv.gz ( 4766773 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_WT_sham2_FB.csv.gz ( 1063879 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_WT_TAC1_CM.csv.gz ( 5222163 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+  读取: GSE168742_WT_TAC1_FB.csv.gz ( 1627244 bytes) ... ✗ 读取失败: duplicate 'row.names' are not allowed 
+
+【2】跳过 1 个文件，成功读取 11 个文件
+合并:  15 基因 x  10010 细胞
+Error: No cells found
+Execution halted

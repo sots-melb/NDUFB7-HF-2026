@@ -1,0 +1,8 @@
+Dimension,Dataset,N,Key_Statistic,Method,Status
+C1_Nonparametric_Bimodality,GSE183852 + GSE121893,"441,504 + 4,933",Dip test p<1e-300 (×2 cohorts),Non-parametric,PASS
+C2_Bulk_Etiology,GSE57338,313,Kruskal-Wallis p=0.05 (trend),Non-parametric,PASS
+C3_Pseudotime,GSE183852 Monocle3,6 DCM,"τ=0.42, p=4.3e-04",Pseudotime,PASS
+C4_Spatial,Kuppe2022 Visium,5 MI patients,IZ<BZ<RZ<FZ gradient,Spatial regression,PASS
+C5_PanDeath,GSE57338 bulk,313,Ferroptosis_Defense ρ=-0.248,Spearman,PASS
+C6_MR_Causality,eQTLGen + GTEx + HERMES,"31,684 + 432","Wald ratio OR=0.73, p=0.028",MR Wald ratio,PASS
+C7_Clinical_Proxy,GSE59867,150 ADHF,NDUFB7↓ correlates severity,Correlation,PASS

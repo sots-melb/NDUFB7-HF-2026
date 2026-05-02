@@ -1,0 +1,36 @@
+NDUFB7心衰研究 - Phase 1数据资产清单
+生成时间: 2026-04-20 20:15:16 
+========================================
+
+[ GSE168742_HF ]
+  文件: 01_data/01_raw_geo/GSE168742/GSE168742_human_HF_CM_matrix.rds 
+  维度: 23355 genes x 678 samples
+  大小: 28.7 MB
+  NDUFB7范围: 0 ~ 2040.29 
+
+[ GSE141910 ]
+  文件: 01_data/01_raw_geo/GSE141910/GSE141910_merged_matrix.rds 
+  维度: 20781 genes x 366 samples
+  大小: 23.3 MB
+  NDUFB7(ENSG)范围: 16.566 ~ 19.023 
+
+[ GSE57338 ]
+  文件: 01_data/01_raw_geo/GSE57338/GSE57338_gene_level.rds 
+  维度: 20254 genes x 313 samples
+  大小: 45.5 MB
+  NDUFB7范围: 6.616 ~ 8.58 
+
+[ GSE79962 ]
+  文件: 01_data/01_raw_geo/GSE79962/GSE79962_gene_level.rds 
+  维度: 20254 genes x 51 samples
+  大小: 4.6 MB
+  NDUFB7范围: 7.284 ~ 8.684 
+
+[ GSE5406 ]
+  文件: 01_data/01_raw_geo/GSE5406/GSE5406_gene_level.rds 
+  维度: 13039 genes x 210 samples
+  大小: 19.4 MB
+  NDUFB7范围: 4.421 ~ 6.496 
+
+总样本数: 1618
+========================================

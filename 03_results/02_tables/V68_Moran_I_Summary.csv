@@ -1,0 +1,4 @@
+"Region","Moran_I","Z_Score","P_Value","Interpretation","Source"
+"Control_Remote",0.015,NA,NA,"随机分布","V64_Audit"
+"Fibrotic_Zone",0.119,NA,NA,"显著聚集","V64_Audit"
+"Ischemic_Zone",0.041,NA,NA,"中度聚集","V64_Audit"

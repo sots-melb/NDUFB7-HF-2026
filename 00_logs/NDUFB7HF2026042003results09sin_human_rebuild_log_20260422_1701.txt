@@ -1,0 +1,27 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== GSE168742人类数据重建 ===
+读取: GSE168742_human_control_CM.csv.gz ( 1344120 bytes) ... 23355 基因 x 84 细胞
+读取: GSE168742_human_HF_CM.csv.gz ( 17103345 bytes) ... 23355 基因 x 678 细胞
+读取: GSE168742_MI_day1_1.csv.gz ( 2150014 bytes) ... 22134 基因 x 84 细胞
+读取: GSE168742_MI_day1_2.csv.gz ( 2465959 bytes) ... 22134 基因 x 88 细胞
+读取: GSE168742_MI_day7_1.csv.gz ( 2992417 bytes) ... 22134 基因 x 91 细胞
+
+【1】成功读取 5 个人类文件
+【2】合并:  15 基因 x  1025 细胞
+
+【3】Seurat:  0 细胞
+Error in rep.int(x = colnames(x = x), times = length(x = i)) : 
+  unimplemented type 'NULL' in 'rep3'
+Calls: cat -> $ -> $.Seurat -> [[ -> [[.Seurat
+Execution halted

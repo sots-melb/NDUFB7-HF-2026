@@ -1,0 +1,7 @@
+File,Region,N_Spots,NDUFB7_Mean,NDUFB7_Pct,Moran_I,P_Value,Status
+Visium_RZ_BZ_P12.h5ad,Error,0,,,,,Error: 'NDUFB7'
+Visium_control_P1.h5ad,Error,0,,,,,Error: 'NDUFB7'
+Visium_RZ_GT_P2.h5ad,Error,0,,,,,Error: 'NDUFB7'
+Visium_RZ_BZ_P3.h5ad,Error,0,,,,,Error: 'NDUFB7'
+Visium_control_P17.h5ad,Error,0,,,,,Error: 'NDUFB7'
+Visium_FZ_GT_P4.h5ad,Error,0,,,,,Error: 'NDUFB7'

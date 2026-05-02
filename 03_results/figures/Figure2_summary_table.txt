@@ -1,0 +1,5 @@
+Platform	n_samples	n_NF	n_DCM	n_ICM	Mean	Median	SD	Unit
+GSE57338 (Affy 1.1 ST)	313	136	82	95	7.89	7.9	0.27	log2
+GDS4772 (Affy 1.0 ST)	17				8.47	8.5	0.25	log2
+GSE116250 (RNA-seq RPKM)	64	14	37	13	575.45	567.75	101.44	RPKM
+GSE55296 (RNA-seq Count)	36				1149.25	1147.35	444.78	Raw Count

@@ -1,0 +1,4 @@
+Comparison,Spearman_rho,p_value,n_samples
+NDUFB7_vs_ACSL4,-0.0528,2.71e-01,436
+NDUFB7_vs_GPX4,0.5208,1.12e-31,436
+NDUFB7_vs_ACSL4_GPX4_ratio,-0.4601,3.18e-24,436

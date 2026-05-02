@@ -1,0 +1,6 @@
+Approach	Feasibility	Rationale
+Small_molecule	Low	No catalytic domain/pocket
+mAb	Very_low	Cannot enter mitochondria
+AAV9_gene_therapy	Medium	Feasible but assembly balance risk
+PROTAC	Low	E3 ligase access difficult
+mRNA	Medium	Bypass transcriptional loss

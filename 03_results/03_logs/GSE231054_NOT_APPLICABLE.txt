@@ -1,0 +1,3 @@
+GSE231054: ENCODE ChIP-seq for histone modifications
+Not applicable for NDUFB7 expression analysis
+Data type: Epigenomic (bigWig/bigBed), not transcriptomic

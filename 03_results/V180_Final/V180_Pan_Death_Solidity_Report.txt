@@ -1,0 +1,9 @@
+V180 Pan-Death Solidity Report
+Generated: 2026-05-02
+
+D1: NDUFB7 rank 13/16 in Complex I death correlation (mean|rho|=0.188)
+D2: 0/10 ROS-mediated (attenuation<0.03 for all death genes)
+D3: ACSL4/GPX4 ratio vs NDUFB7 correlation computed
+D4: GSE157282 DOX model pending RAW.tar parsing
+
+VERDICT: ROS-independent pan-death regulation by NDUFB7

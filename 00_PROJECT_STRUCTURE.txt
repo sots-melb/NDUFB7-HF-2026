@@ -1,0 +1,69 @@
+NDUFB7_Mito_2026 项目结构 (V60发表级)
+========================================
+
+01_data/                    # 数据资产
+├── 00_data_governance/     # 数据治理（新增）
+│   ├── 00_data_sources_v60.md          # 数据溯源清单
+│   ├── 00_download_log_v60.csv         # 下载日志
+│   └── checksums.md5                   # 完整性校验
+├── 01_raw_geo/             # GEO原始数据
+│   ├── GSE57338/           # Tier S02
+│   ├── GSE116250/          # Tier S03
+│   ├── GSE55296/           # Tier S04
+│   ├── GSE183852/          # Tier A01 (去卷积参考)
+│   ├── GSE168742/          # Tier A02
+│   ├── GSE214611/          # Tier A04
+│   └── ...                 # 其他GSE
+├── 02_processed_geo/       # 清洗后数据（待填充）
+├── 03_mr_data/             # MR数据
+│   ├── eQTLGen/            # Tier S06
+│   └── gtex/               # Tier S07
+├── 04_spatial_geo/         # 空间数据
+│   ├── Kuppe_Nature_2022/  # Tier S01
+│   └── GSE290577/          # Tier A03
+├── 05_proteomics_pride/    # 蛋白组
+│   └── PXD010154/          # Tier S05
+└── 06_external_ref/        # 外部参考（HPA等）
+
+02_scripts/                 # 分析脚本
+├── 01_r_analysis/          # R脚本（已归集）
+├── 02_python_utils/        # Python工具
+├── 03_markdown_reports/    # Rmd报告
+└── 04_deprecated/          # 废弃脚本（保留历史）
+
+03_results/                 # 结果产出
+├── 01_figures/             # 投稿级Figure
+│   ├── SuppFig3_ForestPlot_4platforms.pdf
+│   ├── SuppFig3_ForestPlot_4platforms.tiff
+│   └── SuppFig3_transparency_table.csv
+├── 02_tables/              # 统计表格
+├── 03_logs/                # 分析日志
+├── 04_ai_outputs/          # AI生成内容
+└── 05_audit_reports/       # 审计报告
+
+04_paper/                   # 论文材料（新增）
+├── 01_drafts/              # 手稿草稿
+├── 02_figures/             # Figure源文件
+├── 03_supplementary/       # 补充材料
+│   ├── DataAvailability_NatureCommunications.txt
+│   ├── DataAvailability_Circulation.txt
+│   └── DataAvailability_Short.txt
+└── 04_submissions/         # 投稿记录
+
+05_logs/                    # 项目日志（新增）
+├── 01_error_logs/          # 错误档案 E1-E80
+├── 02_version_changelog/   # 版本变更日志
+└── 03_meeting_notes/       # 会议记录
+
+08_admin/                   # 行政文件
+├── 01_grants/              # 基金申请
+├── 02_ethics/              # 伦理文件
+└── 03_docs/                # 项目文档
+
+09_tmp/                     # 临时文件
+├── quarantine_20260424/    # 问题数据隔离
+├── downloads_temp/         # 下载临时
+└── git_archive_20260424/   # Git归档
+
+README.md                   # 项目说明
+00_PROJECT_STRUCTURE.txt    # 本结构图

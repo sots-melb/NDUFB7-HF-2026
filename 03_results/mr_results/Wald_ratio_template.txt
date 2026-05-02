@@ -1,0 +1,2 @@
+SNP	beta_exposure	se_exposure	pval_exposure	beta_outcome	se_outcome	pval_outcome	beta_MR	se_MR	pval_MR
+rs11085898	0.498426654219175	0.0837325965492685	2.6424e-09						

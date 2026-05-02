@@ -1,0 +1,9 @@
+Dataset,Platform,Species,Tissue_Cell,n_Samples,n_Cells,Phenotype,Use_in_Study,PMID_Accession
+GSE57338,GPL570_U133_Plus_2.0,Human,Left_ventricle,313,,Ischemic(n=95)+Dilated(n=218)_HF_vs_Non-failing(n=136),Primary_association_pan-death_correlation_ComplexI_ranking,GSE57338
+GSE59867,GPL11532_HuGene-1_0-st,Human,Left_ventricle,436,,Post-MI_longitudinal(baseline_n=286_4mo_n=150),Temporal_dynamics_GPX4_ACSL4_ratio_discriminant_validation,GSE59867
+GSE168742,Smart-seq2_10x_Genomics,Mouse,Heart_single-cell,,10449,MI_time-course(sham_day1_day7_day30)+TAC,Cross-species_validation_single-cell_trajectory,GSE168742
+GSE157282,Illumina_RNA-seq,Human,iPSC-CM,12,,DOX_cardiotoxicity(Control_DHG_DOX_DHG+DOX),Causal_validation_drug-induced_NDUFB7_suppression,GSE157282
+GSE243655,Illumina_RNA-seq,Mouse,Heart,8,,Fer-1_treatment(Control_vs_Fer-1),Upstream_positioning_Fer-1_non-rescue_of_NDUFB7,GSE243655
+Visium_10x,10x_Visium_Spatial,Mouse,Heart_spatial,10450_spots,,Post-MI(CTRL_FZ_IZ_zones),Spatial_gradient_validation,GSE_Visium_series
+GTEx_v8,RNA-seq_WGS,Human,Heart-LV,372,,eQTL_mapping,SMR_genetic_instrument,GTEx_Portal
+eQTLGen,Meta-analysis,Human,Blood,31456,,Whole-blood_eQTL,SMR_replication,eQTLGen_Consortium

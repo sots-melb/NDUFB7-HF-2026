@@ -1,0 +1,17 @@
+Attaching SeuratObject
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== GSE168742 人类-only 重建 ===
+读取: GSE168742_human_control_CM.csv.gz ... 23355 基因 x 84 细胞
+Error in data.frame(row.names = cells, sample = fname, group = group,  : 
+  row names supplied are of the wrong length
+Execution halted

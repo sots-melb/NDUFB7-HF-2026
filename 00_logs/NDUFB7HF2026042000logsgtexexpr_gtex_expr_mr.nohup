@@ -1,0 +1,19 @@
+nohup: ignoring input
+--2026-04-22 19:00:31--  https://storage.googleapis.com/adult-gtex/bulk-gex/v8/rna-seq/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.gct.gz
+Resolving storage.googleapis.com (storage.googleapis.com)... 198.18.0.27
+Connecting to storage.googleapis.com (storage.googleapis.com)|198.18.0.27|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 917091994 (875M), 375092890 (358M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.gct.gz’
+
+        [ skipping 524288K ]
+524288K ,,,,.... ........ ........ ........ 62%  107K 62m25s
+557056K ........ ........ ........ ........ 65% 39.1K 96m23s
+589824K ........ ........ ........ ........ 69% 29.5K 1h49m
+622592K ........ ........ ........ ........ 73% 26.8K 1h50m
+655360K ........ ........ ........ ........ 76% 34.8K 96m13s
+688128K ........ ........ ........ ........ 80% 33.1K 82m13s
+720896K ........ ........ ........ ........ 84% 25.4K 70m39s
+753664K ........ ........ ........ ........ 87% 23.2K 57m24s
+786432K ........ ........ ........ ........ 91% 21.9K 42m11s
+819200K ....

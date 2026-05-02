@@ -1,0 +1,10 @@
+
+=== DISCUSSION 更新段落（Distribution Modality）===
+
+Distribution modality is platform- and disease-stage-dependent
+
+An unexpected finding across our three independent cohorts was the variable modality of NDUFB7 expression. GSE183852 (DCM, snRNA-seq, n=637) exhibited a tri-modal distribution (G=3: silent ~18%, intermediate ~73%, high ~9%), whereas both GSE121893 (healthy heart, scRNA-seq, n=4,933) and GSE168742 (HF, scRNA-seq, n=84) were better fit by bi-modal models (G=2: silent/low vs. high/retained). We interpret this discrepancy cautiously. BIC-based model selection penalizes complexity and may favor simpler models in larger samples (GSE121893, n=4,933) or when the intermediate population is under-sampled (GSE168742, n=84). Visually, however, all three cohorts show a prominent zero-inflation shoulder and a right-skewed high-expression tail, consistent with a common underlying two-state biology (ON vs. OFF) blurred by technical dropout in the intermediate range.
+
+The lower zero-inflation in GSE168742 (6.0% vs. 18.4% in GSE183852) likely reflects its control-enriched composition (GSE168742 includes both control and HF samples), whereas GSE183852 is DCM-only. This aligns with our core finding that NDUFB7 loss is disease-specific rather than constitutive. Future studies with matched snRNA-seq and scRNA-seq from the same hearts will be needed to disentangle biological modality from technical platform effects.
+
+[Supplementary Figure S4: Three-cohort density comparison with modality annotation]

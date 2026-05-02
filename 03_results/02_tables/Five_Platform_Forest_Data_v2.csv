@@ -1,0 +1,17 @@
+"Platform","Comparison","Effect_Size","p_value","CI_lower","CI_upper","Direction"
+"GSE57338
+Affymetrix 1.1ST","HF vs NF
+n=313",0.072,0.524,-0.05,0.2,"None"
+"GSE116250
+RNA-seq RPKM","DCM vs NF
+n=64",0.94,0.008,0.3,1.5,"Up*
+(137aa bias)"
+"GSE55296
+RNA-seq counts","DCM vs ICM
+n=37",0.218,0.046,0.02,0.5,"DCM>ICM"
+"GDS4772
+Affymetrix U133A","DCM vs Normal
+n=17",0.368781773481171,0.442146089204913,-0.681846482817146,1.41941002977949,"None"
+"PXD010154
+Proteomics","Detection
+n=19 frac",NA,NA,NA,NA,"Detected"

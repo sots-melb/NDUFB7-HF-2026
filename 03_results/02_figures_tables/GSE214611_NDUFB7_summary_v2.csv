@@ -1,0 +1,7 @@
+,NDUFB7_mean_all,NDUFB7_mean_all,NDUFB7_mean_all,NDUFB7_mean_expr,NDUFB7_mean_expr,pct_expressing,n_cells
+,mean,std,count,mean,std,mean,sum
+group,,,,,,,
+MI_d3,0.098,,1,1.309,,7.463,4904
+MI_d7,0.874,,1,1.818,,48.098,1551
+SND,0.033,,1,1.117,,2.97,12627
+sham,5.513,,1,5.691,,96.864,3540

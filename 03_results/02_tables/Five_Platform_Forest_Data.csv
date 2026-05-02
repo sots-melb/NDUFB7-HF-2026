@@ -1,0 +1,6 @@
+"Platform","Dataset","Comparison","n_case","n_control","Effect_Size","p_value","Direction","Notes"
+"Affymetrix_1.1ST","GSE57338","HF_vs_NF",177,136,0.072,0.524,"None","n=313, no diff"
+"RNA-seq_RPKM","GSE116250","DCM_vs_NF",36,28,0.94,0.008,"Up*","137aa bias"
+"RNA-seq_counts","GSE55296","DCM_vs_ICM",15,13,0.218,0.046,"DCM>ICM","Independent"
+"Affymetrix_U133A","GDS4772","DCM_vs_NF",12,5,NA,NA,"Unknown","Curated"
+"Proteomics","PXD010154","Detection",19,NA,NA,NA,"Detected","12 peptides"

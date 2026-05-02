@@ -1,0 +1,6 @@
+nohup: ignoring input
+--2026-04-22 19:00:16--  https://storage.finngen.fi/public/r10/summary_stats/finngen_R10_I9_HEARTFAIL.gz
+Resolving storage.finngen.fi (storage.finngen.fi)... 198.18.18.139
+Connecting to storage.finngen.fi (storage.finngen.fi)|198.18.18.139|:443... connected.
+OpenSSL: error:0A000126:SSL routines::unexpected eof while reading
+Unable to establish SSL connection.

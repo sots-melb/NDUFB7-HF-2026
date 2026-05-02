@@ -1,0 +1,48 @@
+[cat > ~/Projects/NDUFB7_HF_2026_04_20/03_results/mr_results/MANUAL_QUERY_TEMPLATE.txt << 'EOF'
+========================================
+MR手动查询数据录入模板
+========================================
+
+查询时间: 2026-04-24
+查询人: [你的名字]
+查询工具: PhenoScanner / GWAS Catalog / IEU GWAS
+
+----------------------------------------
+SNP 1: rs11085898 (eQTLGen最强, 暴露beta=0.15, 暴露EA=A)
+----------------------------------------
+来源网站: [PhenoScanner/GWAS Catalog/IEU]
+Outcome_trait: [如 Heart failure / CAD / Cardiomyopathy]
+Beta_outcome: [填入数值]
+SE_outcome: [填入数值]
+Pval_outcome: [填入数值]
+Effect_allele_outcome: [A/C/G/T，必须与暴露EA=A比对]
+Other_allele_outcome: [A/C/G/T]
+Sample_size: [如 115000]
+Study: [如 HERMES / UKB / FinnGen R12]
+备注: [如 OR=1.05, 已转换为beta=ln(1.05)=0.0488]
+
+----------------------------------------
+SNP 2: rs8103021 (GTEx最强, 暴露beta=-0.0803, 暴露EA=T)
+----------------------------------------
+来源网站: [PhenoScanner/GWAS Catalog/IEU]
+Outcome_trait: [如 Heart failure]
+Beta_outcome: [填入数值]
+SE_outcome: [填入数值]
+Pval_outcome: [填入数值]
+Effect_allele_outcome: [必须与暴露EA=T比对]
+Other_allele_outcome: []
+Sample_size: []
+Study: []
+备注: []
+
+----------------------------------------
+SNP 3-5 (可选, 增加稳健性)
+----------------------------------------
+SNP: rs4926228
+...
+SNP: rs754192
+...
+SNP: rs1978625
+...
+
+========================================

@@ -1,0 +1,252 @@
+nohup: ignoring input
+--2026-04-22 19:21:05--  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Resolving molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)... 198.18.15.123
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 258504770 (247M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 32768K ]
+ 32768K ,,,,,,,, ,,,,,,,, ,,,,,,,, ,,,,,... 20%  165K 4h58m
+ 65536K .....                               22% 13.6K=10m28s
+
+2026-04-22 19:31:34 (13.7 KB/s) - Connection closed at byte 73094984. Retrying.
+
+--2026-04-22 19:31:35--  (try: 2)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 249680895 (238M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 65536K ]
+ 65536K ,,,,,... ........ ........ ........ 31% 22.8K 3h13m
+ 98304K ........ ........ ........ ........ 41% 20.0K 2h38m
+131072K ........ ........ ........ ........ 51% 18.7K 2h11m
+163840K ........ ........ ........ ........ 62% 16.2K 1h48m
+196608K ........ ....                       66% 15.7K=2h7m
+
+2026-04-22 21:38:51 (18.0 KB/s) - Connection closed at byte 214007491. Retrying.
+
+--2026-04-22 21:38:53--  (try: 3)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 108768388 (104M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 196608K ]
+196608K ,,,,,,,, ,,,,....                   67% 10.6K=6m51s
+
+2026-04-22 21:45:45 (10.6 KB/s) - Connection closed at byte 218458421. Retrying.
+
+--2026-04-22 21:45:48--  (try: 4)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 104317458 (99M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 196608K ]
+196608K ,,,,,,,, ,,,,,,,, .....             69% 12.5K=6m29s
+
+2026-04-22 21:52:20 (12.5 KB/s) - Connection closed at byte 223423815. Retrying.
+
+--2026-04-22 21:52:24--  (try: 5)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 99352064 (95M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 196608K ]
+196608K ,,,,,,,, ,,,,,,,, ,,,,,... ..       71% 12.4K=7m38s
+
+2026-04-22 22:00:03 (12.4 KB/s) - Connection closed at byte 229225214. Retrying.
+
+--2026-04-22 22:00:08--  (try: 6)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 93550665 (89M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 196608K ]
+196608K ,,,,,,,, ,,,,,,,, ,,,,,,,, ,,...... 72% 79.4K 1h46m
+229376K ..                                  73% 12.7K=10m42s
+
+2026-04-22 22:10:50 (13.1 KB/s) - Connection closed at byte 237856165. Retrying.
+
+--2026-04-22 22:10:56--  (try: 7)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 84919714 (81M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,.                                 73% 7.91K=34s
+
+2026-04-22 22:12:31 (7.91 KB/s) - Read error at byte 238129020/322775879 (Connection timed out). Retrying.
+
+--2026-04-22 22:12:38--  (try: 8)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 84646859 (81M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,....                             75% 11.0K=6m31s
+
+2026-04-22 22:19:09 (11.0 KB/s) - Connection closed at byte 242515643. Retrying.
+
+--2026-04-22 22:19:17--  (try: 9)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 80260236 (77M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,,,,,. ...                        76% 9.37K=6m55s
+
+2026-04-22 22:26:14 (9.37 KB/s) - Connection closed at byte 246494752. Retrying.
+
+--2026-04-22 22:26:23--  (try:10)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 76281127 (73M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,,,,,, ,,,....                    77% 10.9K=7m21s
+
+2026-04-22 22:33:44 (10.9 KB/s) - Connection closed at byte 251395839. Retrying.
+
+--2026-04-22 22:33:54--  (try:11)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 71380040 (68M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,,,,,, ,,,,,,,. .....             79% 8.49K=10m52s
+
+2026-04-22 22:44:47 (8.49 KB/s) - Connection closed at byte 257064428. Retrying.
+
+--2026-04-22 22:44:57--  (try:12)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 65711451 (63M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,,,,,, ,,,,,,,, ,,,,,... ....     82% 9.76K=13m7s
+
+2026-04-22 22:58:06 (9.76 KB/s) - Connection closed at byte 264933367. Retrying.
+
+--2026-04-22 22:58:16--  (try:13)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 57842512 (55M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 229376K ]
+229376K ,,,,,,,, ,,,,,,,, ,,,,,,,, ,,,,.... 83%  115K 73m28s
+262144K ..                                  84% 11.7K=8m51s
+
+2026-04-22 23:07:07 (11.9 KB/s) - Connection closed at byte 271377846. Retrying.
+
+--2026-04-22 23:07:17--  (try:14)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 51398033 (49M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,....                              85% 8.21K=8m40s
+
+2026-04-22 23:15:58 (8.21 KB/s) - Connection closed at byte 275746295. Retrying.
+
+--2026-04-22 23:16:08--  (try:15)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 47029584 (45M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,.. ...                        87% 10.9K=7m38s
+
+2026-04-22 23:23:47 (10.9 KB/s) - Connection closed at byte 280869664. Retrying.
+
+--2026-04-22 23:23:57--  (try:16)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 41906215 (40M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,,, ,,,...                     87% 11.3K=3m38s
+
+2026-04-22 23:27:36 (11.3 KB/s) - Connection closed at byte 283402539. Retrying.
+
+--2026-04-22 23:27:46--  (try:17)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 39373340 (38M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,,, ,,,,,,.. ..                89% 8.93K=8m38s
+
+2026-04-22 23:36:25 (8.93 KB/s) - Connection closed at byte 288135866. Retrying.
+
+--2026-04-22 23:36:35--  (try:18)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 34640013 (33M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,,, ,,,,,,,, ,,......          91% 11.3K=8m25s
+
+2026-04-22 23:45:03 (11.3 KB/s) - Connection closed at byte 293963827. Retrying.
+
+--2026-04-22 23:45:13--  (try:19)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 28812052 (27M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,,, ,,,,,,,, ,,,,,,,, ....     92% 11.6K=6m3s
+
+2026-04-22 23:51:17 (11.6 KB/s) - Connection closed at byte 298286142. Retrying.
+
+--2026-04-22 23:51:27--  (try:20)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 24489737 (23M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 262144K ]
+262144K ,,,,,,,, ,,,,,,,, ,,,,,,,, ,,,,.... 93%  109K 28m4s
+294912K .....                               95% 11.3K=13m25s
+
+2026-04-23 00:04:54 (11.6 KB/s) - Connection closed at byte 307817405. Retrying.
+
+--2026-04-23 00:05:04--  (try:21)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 14958474 (14M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 294912K ]
+294912K ,,,,,... ..                         96% 9.99K=7m40s
+
+2026-04-23 00:12:47 (9.99 KB/s) - Connection closed at byte 312525568. Retrying.
+
+--2026-04-23 00:12:57--  (try:22)  https://molgenis26.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz
+Connecting to molgenis26.gcc.rug.nl (molgenis26.gcc.rug.nl)|198.18.15.123|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 322775879 (308M), 10250311 (9.8M) remaining [application/octet-stream]
+Saving to: ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’
+
+        [ skipping 294912K ]
+294912K ,,,,,,,, ,,...... ...              100% 16.6K=10m1s
+
+2026-04-23 00:23:05 (16.6 KB/s) - ‘/home/y411869/Projects/NDUFB7_HF_2026_04_20/01_data/03_mr_data/eqtlgen_cis_eqtl.txt.gz’ saved [322775879/322775879]
+

@@ -1,0 +1,3 @@
+### Pan-Cell-Death vs Ferroptosis Specificity (Internal Audit)
+
+We explicitly tested whether NDUFB7 loss is specific to ferroptosis or reflects a general death-program activation. The discriminant validation (V151) showed that apoptosis (ρ=−0.361) and necroptosis (ρ=−0.333) were statistically stronger correlates than ferroptosis defense (ρ=−0.248). We therefore frame ferroptosis not as the exclusive mechanism but as the most **druggable and metabolically anchored** node within a broader death-signature cascade. This honest framing strengthens rather than weakens the paper, because it acknowledges biological complexity while focusing clinical translation on the most actionable target.
